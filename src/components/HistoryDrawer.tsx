@@ -19,20 +19,30 @@ export function HistoryDrawer({
   onUndo,
   onReset,
 }: HistoryDrawerProps) {
-  if (!open) return null;
-
   const showPending = !!pendingCode && pendingCode !== history[history.length - 1];
 
   return (
-    <div className="absolute inset-0 z-20">
+    <div
+      className={
+        "absolute inset-0 z-20 transition-opacity duration-150" +
+        (open ? "" : " opacity-0 pointer-events-none")
+      }
+      aria-hidden={!open}
+    >
       <button
         type="button"
         aria-label="メニューを閉じる"
+        tabIndex={open ? 0 : -1}
         className="absolute inset-0 bg-black/40"
         onClick={onClose}
       />
 
-      <div className="absolute left-0 top-0 bottom-0 w-[78%] bg-white shadow-2xl p-6 flex flex-col">
+      <div
+        className={
+          "absolute left-0 top-0 bottom-0 w-[78%] bg-white shadow-2xl p-6 flex flex-col transition-transform duration-150 ease-out " +
+          (open ? "translate-x-0" : "-translate-x-full")
+        }
+      >
         <div className="flex items-center justify-between mb-8">
           <button type="button" onClick={onClose} aria-label="閉じる" className="text-black">
             <span className="text-2xl leading-none">×</span>
