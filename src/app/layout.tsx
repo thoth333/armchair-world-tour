@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Noto_Sans_JP, Noto_Sans_Display } from "next/font/google";
 import "./globals.css";
 
@@ -14,10 +14,35 @@ const notoSansDisplay = Noto_Sans_Display({
   weight: ["400", "500", "700", "900"],
 });
 
+const title = "脳内世界旅行";
+const description =
+  "何も見ずに国名をつなげていく「脳内世界旅行」を楽しめるアプリ";
+
 export const metadata: Metadata = {
-  title: "脳内世界旅行",
-  description:
-    "何も見ずに国名をつなげていく「脳内世界旅行」の隣接判定を助けるアプリ",
+  metadataBase: new URL("https://world-tour.thwth.dev"),
+  title,
+  description,
+  appleWebApp: {
+    capable: true,
+    title,
+    statusBarStyle: "default",
+  },
+  openGraph: {
+    title,
+    description,
+    siteName: title,
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#059669",
 };
 
 export default function RootLayout({
