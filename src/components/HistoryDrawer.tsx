@@ -85,7 +85,7 @@ export function HistoryDrawer({
                 return (
                   <div
                     key={`${code}-${index}`}
-                    className="relative flex pr-1"
+                    className="relative flex gap-2 pr-1"
                   >
                     <div className="w-5 shrink-0 self-stretch relative flex items-center justify-center">
                       {isCurrent ? (
@@ -113,35 +113,43 @@ export function HistoryDrawer({
                         }
                       />
                     </div>
-                    <div className="flex-1 flex items-center justify-between">
+                    <div className="flex-1 min-w-0 flex items-center justify-between gap-2">
                       <p
                         className={
                           isCurrent
-                            ? "text-neutral-700 text-base font-bold"
-                            : "text-neutral-400 text-sm"
+                            ? "text-neutral-700 text-lg font-bold truncate"
+                            : "text-neutral-400 text-base truncate"
                         }
                       >
                         {info?.name ?? code}
                       </p>
-                      <span className="text-sm shrink-0">{info?.flag}</span>
+                      <span
+                        className={
+                          isCurrent
+                            ? "text-lg shrink-0"
+                            : "text-base shrink-0"
+                        }
+                      >
+                        {info?.flag}
+                      </span>
                     </div>
                   </div>
                 );
               })}
 
               {showPending && pendingCode && (
-                <div className="relative flex pr-1">
+                <div className="relative flex gap-2 pr-1">
                   <div className="w-5 shrink-0 self-stretch relative flex items-center justify-center">
                     {history.length > 0 && (
                       <div className="absolute left-1/2 -translate-x-1/2 -top-5 bottom-1/2 w-[1.5px] bg-gradient-to-b from-neutral-300 to-[#C99A2E]" />
                     )}
                     <div className="w-2.5 h-2.5 rounded-full bg-[#C99A2E]" />
                   </div>
-                  <div className="flex-1 flex items-center justify-between">
-                    <p className="text-[#C99A2E] text-base font-bold">
+                  <div className="flex-1 min-w-0 flex items-center justify-between gap-2">
+                    <p className="text-[#C99A2E] text-lg font-bold truncate">
                       {countryData[pendingCode]?.name}
                     </p>
-                    <span className="text-sm shrink-0">
+                    <span className="text-lg shrink-0">
                       {countryData[pendingCode]?.flag}
                     </span>
                   </div>
