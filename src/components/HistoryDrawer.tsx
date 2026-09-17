@@ -68,51 +68,83 @@ export function HistoryDrawer({
           これまでの旅程
         </p>
 
-        <div className="relative pl-5 pr-3 flex-1 overflow-y-auto [scrollbar-gutter:stable]">
-          <div className="absolute left-1 top-1 bottom-1 w-px bg-neutral-200" />
-
+        <div className="relative pr-3 flex-1 overflow-y-auto [scrollbar-gutter:stable]">
           {history.length === 0 && !showPending ? (
-            <p className="text-neutral-300 text-sm">まだ国が入力されていません</p>
+            <p className="text-neutral-300 text-sm pl-5">
+              まだ国が入力されていません
+            </p>
           ) : (
             <div className="space-y-5">
               {history.map((code, index) => {
                 const isCurrent = index === history.length - 1;
                 const info = countryData[code];
+                const isFirstRow = index === 0;
+                const isLastRow = !showPending && isCurrent;
+                const hasAbove = !isFirstRow;
+                const hasBelow = !isLastRow;
                 return (
                   <div
                     key={`${code}-${index}`}
-                    className="relative flex items-center justify-between pr-1"
+                    className="relative flex pr-1"
                   >
-                    <div
-                      className={
-                        isCurrent
-                          ? "absolute -left-5 top-1 w-2 h-2 rounded-full bg-neutral-500"
-                          : "absolute -left-5 top-1 w-2 h-2 rounded-full bg-neutral-300"
-                      }
-                    />
-                    <p
-                      className={
-                        isCurrent
-                          ? "text-neutral-700 text-base font-bold"
-                          : "text-neutral-400 text-sm"
-                      }
-                    >
-                      {info?.name ?? code}
-                    </p>
-                    <span className="text-sm shrink-0">{info?.flag}</span>
+                    <div className="w-5 shrink-0 self-stretch relative flex items-center justify-center">
+                      {isCurrent ? (
+                        <>
+                          {hasAbove && (
+                            <div className="absolute left-1/2 -translate-x-1/2 -top-5 bottom-1/2 w-[1.5px] bg-gradient-to-b from-neutral-300 to-neutral-500" />
+                          )}
+                          {hasBelow && (
+                            <div className="absolute left-1/2 -translate-x-1/2 top-1/2 bottom-0 w-[1.5px] bg-gradient-to-b from-neutral-500 to-neutral-300" />
+                          )}
+                        </>
+                      ) : (
+                        <div
+                          className={
+                            "absolute left-1/2 -translate-x-1/2 w-[1.5px] bg-neutral-300 " +
+                            (isFirstRow ? "top-1/2 bottom-0" : "-top-5 bottom-0")
+                          }
+                        />
+                      )}
+                      <div
+                        className={
+                          isCurrent
+                            ? "w-2 h-2 rounded-full bg-neutral-500"
+                            : "w-2 h-2 rounded-full bg-neutral-300"
+                        }
+                      />
+                    </div>
+                    <div className="flex-1 flex items-center justify-between">
+                      <p
+                        className={
+                          isCurrent
+                            ? "text-neutral-700 text-base font-bold"
+                            : "text-neutral-400 text-sm"
+                        }
+                      >
+                        {info?.name ?? code}
+                      </p>
+                      <span className="text-sm shrink-0">{info?.flag}</span>
+                    </div>
                   </div>
                 );
               })}
 
               {showPending && pendingCode && (
-                <div className="relative flex items-center justify-between pr-1">
-                  <div className="absolute -left-5 top-1.5 w-2.5 h-2.5 rounded-full bg-[#C99A2E]" />
-                  <p className="text-[#C99A2E] text-base font-bold">
-                    {countryData[pendingCode]?.name}
-                  </p>
-                  <span className="text-sm shrink-0">
-                    {countryData[pendingCode]?.flag}
-                  </span>
+                <div className="relative flex pr-1">
+                  <div className="w-5 shrink-0 self-stretch relative flex items-center justify-center">
+                    {history.length > 0 && (
+                      <div className="absolute left-1/2 -translate-x-1/2 -top-5 bottom-1/2 w-[1.5px] bg-gradient-to-b from-neutral-300 to-[#C99A2E]" />
+                    )}
+                    <div className="w-2.5 h-2.5 rounded-full bg-[#C99A2E]" />
+                  </div>
+                  <div className="flex-1 flex items-center justify-between">
+                    <p className="text-[#C99A2E] text-base font-bold">
+                      {countryData[pendingCode]?.name}
+                    </p>
+                    <span className="text-sm shrink-0">
+                      {countryData[pendingCode]?.flag}
+                    </span>
+                  </div>
                 </div>
               )}
             </div>
