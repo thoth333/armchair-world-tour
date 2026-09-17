@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "脳内世界旅行",
     short_name: "脳内世界旅行",
     description:
-      "何も見ずに国名をつなげていく「脳内世界旅行」を楽しめるアプリ",
+      "何も見ずに国名をつなげていく「脳内世界旅行」を楽しもう",
     start_url: "/",
     display: "standalone",
     background_color: "#e5e5e5",

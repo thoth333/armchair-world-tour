@@ -16,7 +16,7 @@ const notoSansDisplay = Noto_Sans_Display({
 
 const title = "脳内世界旅行";
 const description =
-  "何も見ずに国名をつなげていく「脳内世界旅行」を楽しめるアプリ";
+  "何も見ずに国名をつなげていく「脳内世界旅行」を楽しもう";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://world-tour.thwth.dev"),
