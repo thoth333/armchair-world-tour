@@ -56,6 +56,7 @@ export function HistoryDrawer({
             type="button"
             onClick={onUndo}
             disabled={history.length === 0}
+            suppressHydrationWarning
             className="flex items-center gap-1.5 text-neutral-500 text-xs border border-neutral-200 rounded-full pl-2 pr-3 py-1.5 disabled:opacity-30"
           >
             <span className="text-sm leading-none">←</span>
