@@ -105,7 +105,7 @@ export default function Home() {
           <div>
             <div className="flex items-baseline justify-between mb-3">
               <p className="text-neutral-500 text-sm">現在地</p>
-              <p className="text-neutral-400 text-xs nsd">
+              <p className="text-neutral-400 text-xs">
                 <span className="text-neutral-600 font-bold text-sm">
                   {ordinal}
                 </span>{" "}
@@ -118,8 +118,8 @@ export default function Home() {
 
             <div className="flex items-center gap-4 mb-8">
               <div className="flex-1 h-px bg-neutral-200" />
-              <span className="text-neutral-400 text-xs nsd tracking-widest">
-                TO
+              <span className="text-neutral-400 text-xs tracking-widest">
+                to
               </span>
               <div className="flex-1 h-px bg-neutral-200" />
             </div>
@@ -151,7 +151,7 @@ export default function Home() {
                 <span className="text-red-500 text-sm font-bold">{errorText}</span>
               </div>
             ) : inputValue.length === 0 ? (
-              <p className="text-neutral-300 text-xs nsd tracking-wide mt-2">
+              <p className="text-neutral-300 text-xs tracking-wide mt-2">
                 入力してください
               </p>
             ) : null}

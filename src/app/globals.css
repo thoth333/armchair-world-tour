@@ -8,12 +8,12 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-noto-sans-jp), "Noto Sans JP", sans-serif;
-}
-
-.nsd {
   font-family: var(--font-noto-sans-display), var(--font-noto-sans-jp),
     "Noto Sans JP", sans-serif;
+}
+
+.font-jp {
+  font-family: var(--font-noto-sans-jp), "Noto Sans JP", sans-serif;
 }
 
 @keyframes pop-in {

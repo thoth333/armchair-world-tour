@@ -50,7 +50,7 @@ export function HistoryDrawer({
             aria-label="閉じる"
             className="text-black -m-3 p-3 select-none"
           >
-            <span className="text-2xl leading-none select-none">×</span>
+            <span className="text-2xl leading-none select-none font-jp">×</span>
           </button>
           <button
             type="button"
@@ -60,11 +60,11 @@ export function HistoryDrawer({
             className="flex items-center gap-1.5 text-neutral-500 text-xs border border-neutral-200 rounded-full pl-2 pr-3 py-1.5 disabled:opacity-30"
           >
             <span className="text-sm leading-none">←</span>
-            <span className="nsd tracking-wide">一つ戻る</span>
+            <span className="tracking-wide">一つ戻る</span>
           </button>
         </div>
 
-        <p className="text-neutral-400 text-xs tracking-widest nsd mb-5">
+        <p className="text-neutral-400 text-xs tracking-widest mb-5">
           これまでの旅程
         </p>
 
@@ -163,7 +163,7 @@ export function HistoryDrawer({
           <button
             type="button"
             onClick={onReset}
-            className="text-neutral-400 text-xs nsd tracking-wide underline decoration-neutral-200 underline-offset-4"
+            className="text-neutral-400 text-xs tracking-wide underline decoration-neutral-200 underline-offset-4"
           >
             最初からやり直す
           </button>
