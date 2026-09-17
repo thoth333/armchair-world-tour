@@ -67,7 +67,7 @@ export function HistoryDrawer({
           これまでの旅程
         </p>
 
-        <div className="relative pl-5 flex-1 overflow-y-auto">
+        <div className="relative pl-5 pr-3 flex-1 overflow-y-auto [scrollbar-gutter:stable]">
           <div className="absolute left-1 top-1 bottom-1 w-px bg-neutral-200" />
 
           {history.length === 0 && !showPending ? (
