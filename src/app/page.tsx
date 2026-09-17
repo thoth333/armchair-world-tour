@@ -140,7 +140,7 @@ export default function Home() {
                 aria-label={destinationLabel}
                 className={
                   "w-full bg-transparent outline-none text-5xl font-bold tracking-tight placeholder:text-5xl placeholder:font-medium " +
-                  (errorText ? "text-black" : "text-[#C99A2E] placeholder-neutral-400")
+                  (errorText ? "text-black" : "text-[#E99A56] placeholder-neutral-400")
                 }
               />
             </form>

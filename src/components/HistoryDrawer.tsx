@@ -154,12 +154,12 @@ export function HistoryDrawer({
                 <div className="relative flex gap-2 pr-1">
                   <div className="w-5 shrink-0 self-stretch relative flex items-center justify-center">
                     {history.length > 0 && (
-                      <div className="absolute left-1/2 -translate-x-1/2 -top-5 bottom-1/2 w-[1.5px] bg-gradient-to-b from-neutral-300 to-[#C99A2E]" />
+                      <div className="absolute left-1/2 -translate-x-1/2 -top-5 bottom-1/2 w-[1.5px] bg-gradient-to-b from-neutral-300 to-[#E99A56]" />
                     )}
-                    <div className="w-2.5 h-2.5 rounded-full bg-[#C99A2E]" />
+                    <div className="w-2.5 h-2.5 rounded-full bg-[#E99A56]" />
                   </div>
                   <div className="flex-1 min-w-0 flex items-center justify-between gap-2">
-                    <p className="text-[#C99A2E] text-lg font-bold truncate">
+                    <p className="text-[#E99A56] text-lg font-bold truncate">
                       {countryData[pendingCode]?.name}
                     </p>
                     <span className="text-lg shrink-0">
