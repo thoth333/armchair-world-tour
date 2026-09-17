@@ -25,13 +25,17 @@ export default function Home() {
 
   // 履歴が増えた（受理された）タイミングで入力欄をクリアする。
   // ポップアップ表示中はタイマー経由で履歴が増えるため、ここで揃えて処理する。
+  // メニュー表示中（一つ戻る等）はフォーカスすると、スマホで背後の入力欄に
+  // テキスト選択モード（キーボード）が出てしまうため、そこは避ける。
   useEffect(() => {
     if (history.length !== prevHistoryLength.current) {
       prevHistoryLength.current = history.length;
       setInputValue("");
-      inputRef.current?.focus();
+      if (!menuOpen) {
+        inputRef.current?.focus();
+      }
     }
-  }, [history.length]);
+  }, [history.length, menuOpen]);
 
   // ポップアップ表示中はEnterキーでも閉じられるようにする。
   useEffect(() => {
