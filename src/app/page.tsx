@@ -101,7 +101,7 @@ export default function Home() {
           </button>
 
           <div className="text-center mb-14 mt-1">
-            <h1 className="text-black text-base font-bold tracking-[0.2em]">
+            <h1 className="text-emerald-600 text-base font-bold tracking-[0.2em] select-none">
               脳内世界旅行
             </h1>
           </div>
@@ -150,7 +150,7 @@ export default function Home() {
                 aria-label={destinationLabel}
                 className={
                   "w-full bg-transparent outline-none text-5xl font-bold tracking-tight placeholder:text-5xl placeholder:font-medium " +
-                  (errorText ? "text-black" : "text-[#E99A56] placeholder-neutral-400")
+                  (errorText ? "text-black" : "text-emerald-600 placeholder-neutral-400")
                 }
               />
             </form>
