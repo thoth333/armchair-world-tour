@@ -1,0 +1,1937 @@
+{
+  "AD": {
+    "name": "アンドラ",
+    "formalName": "アンドラ公国",
+    "aliases": [],
+    "flag": "🇦🇩",
+    "borders": [
+      "FR",
+      "ES"
+    ]
+  },
+  "AE": {
+    "name": "アラブ首長国連邦",
+    "formalName": "アラブ首長国連邦",
+    "aliases": [
+      "UAE"
+    ],
+    "flag": "🇦🇪",
+    "borders": [
+      "SA",
+      "OM"
+    ]
+  },
+  "AF": {
+    "name": "アフガニスタン",
+    "formalName": "アフガニスタン・イスラム共和国",
+    "aliases": [],
+    "flag": "🇦🇫",
+    "borders": [
+      "TM",
+      "UZ",
+      "TJ",
+      "CN",
+      "PK",
+      "IR"
+    ]
+  },
+  "AL": {
+    "name": "アルバニア",
+    "formalName": "アルバニア共和国",
+    "aliases": [],
+    "flag": "🇦🇱",
+    "borders": [
+      "ME",
+      "XK",
+      "MK",
+      "GR"
+    ]
+  },
+  "AM": {
+    "name": "アルメニア",
+    "formalName": "アルメニア共和国",
+    "aliases": [],
+    "flag": "🇦🇲",
+    "borders": [
+      "GE",
+      "AZ",
+      "IR",
+      "TR"
+    ]
+  },
+  "AO": {
+    "name": "アンゴラ",
+    "formalName": "アンゴラ共和国",
+    "aliases": [],
+    "flag": "🇦🇴",
+    "borders": [
+      "CG",
+      "CD",
+      "ZM",
+      "NA"
+    ]
+  },
+  "AR": {
+    "name": "アルゼンチン",
+    "formalName": "アルゼンチン共和国",
+    "aliases": [],
+    "flag": "🇦🇷",
+    "borders": [
+      "CL",
+      "BO",
+      "PY",
+      "BR",
+      "UY"
+    ]
+  },
+  "AT": {
+    "name": "オーストリア",
+    "formalName": "オーストリア共和国",
+    "aliases": [],
+    "flag": "🇦🇹",
+    "borders": [
+      "DE",
+      "CZ",
+      "SK",
+      "HU",
+      "SI",
+      "IT",
+      "CH",
+      "LI"
+    ]
+  },
+  "AZ": {
+    "name": "アゼルバイジャン",
+    "formalName": "アゼルバイジャン共和国",
+    "aliases": [],
+    "flag": "🇦🇿",
+    "borders": [
+      "RU",
+      "GE",
+      "AM",
+      "IR",
+      "TR"
+    ]
+  },
+  "BA": {
+    "name": "ボスニア・ヘルツェゴビナ",
+    "formalName": "ボスニア・ヘルツェゴビナ",
+    "aliases": [],
+    "flag": "🇧🇦",
+    "borders": [
+      "HR",
+      "RS",
+      "ME"
+    ]
+  },
+  "BD": {
+    "name": "バングラデシュ",
+    "formalName": "バングラデシュ人民共和国",
+    "aliases": [],
+    "flag": "🇧🇩",
+    "borders": [
+      "IN",
+      "MM"
+    ]
+  },
+  "BE": {
+    "name": "ベルギー",
+    "formalName": "ベルギー王国",
+    "aliases": [],
+    "flag": "🇧🇪",
+    "borders": [
+      "NL",
+      "DE",
+      "LU",
+      "FR"
+    ]
+  },
+  "BF": {
+    "name": "ブルキナファソ",
+    "formalName": "ブルキナファソ",
+    "aliases": [],
+    "flag": "🇧🇫",
+    "borders": [
+      "ML",
+      "NE",
+      "BJ",
+      "TG",
+      "GH",
+      "CI"
+    ]
+  },
+  "BG": {
+    "name": "ブルガリア",
+    "formalName": "ブルガリア共和国",
+    "aliases": [],
+    "flag": "🇧🇬",
+    "borders": [
+      "RO",
+      "RS",
+      "MK",
+      "GR",
+      "TR"
+    ]
+  },
+  "BI": {
+    "name": "ブルンジ",
+    "formalName": "ブルンジ共和国",
+    "aliases": [],
+    "flag": "🇧🇮",
+    "borders": [
+      "RW",
+      "TZ",
+      "CD"
+    ]
+  },
+  "BJ": {
+    "name": "ベナン",
+    "formalName": "ベナン共和国",
+    "aliases": [],
+    "flag": "🇧🇯",
+    "borders": [
+      "TG",
+      "BF",
+      "NE",
+      "NG"
+    ]
+  },
+  "BN": {
+    "name": "ブルネイ",
+    "formalName": "ブルネイ・ダルサラーム国",
+    "aliases": [],
+    "flag": "🇧🇳",
+    "borders": [
+      "MY"
+    ]
+  },
+  "BO": {
+    "name": "ボリビア",
+    "formalName": "ボリビア多民族国",
+    "aliases": [],
+    "flag": "🇧🇴",
+    "borders": [
+      "PE",
+      "BR",
+      "PY",
+      "AR",
+      "CL"
+    ]
+  },
+  "BR": {
+    "name": "ブラジル",
+    "formalName": "ブラジル連邦共和国",
+    "aliases": [],
+    "flag": "🇧🇷",
+    "borders": [
+      "FR",
+      "SR",
+      "GY",
+      "VE",
+      "CO",
+      "PE",
+      "BO",
+      "PY",
+      "AR",
+      "UY"
+    ]
+  },
+  "BT": {
+    "name": "ブータン",
+    "formalName": "ブータン王国",
+    "aliases": [],
+    "flag": "🇧🇹",
+    "borders": [
+      "CN",
+      "IN"
+    ]
+  },
+  "BW": {
+    "name": "ボツワナ",
+    "formalName": "ボツワナ共和国",
+    "aliases": [],
+    "flag": "🇧🇼",
+    "borders": [
+      "NA",
+      "ZM",
+      "ZW",
+      "ZA"
+    ]
+  },
+  "BY": {
+    "name": "ベラルーシ",
+    "formalName": "ベラルーシ共和国",
+    "aliases": [
+      "白ロシア"
+    ],
+    "flag": "🇧🇾",
+    "borders": [
+      "RU",
+      "UA",
+      "PL",
+      "LT",
+      "LV"
+    ]
+  },
+  "BZ": {
+    "name": "ベリーズ",
+    "formalName": "ベリーズ",
+    "aliases": [],
+    "flag": "🇧🇿",
+    "borders": [
+      "MX",
+      "GT"
+    ]
+  },
+  "CA": {
+    "name": "カナダ",
+    "formalName": "カナダ",
+    "aliases": [],
+    "flag": "🇨🇦",
+    "borders": [
+      "US"
+    ]
+  },
+  "CD": {
+    "name": "コンゴ民主共和国",
+    "formalName": "コンゴ民主共和国",
+    "aliases": [
+      "コンゴ・キンシャサ",
+      "旧ザイール"
+    ],
+    "flag": "🇨🇩",
+    "borders": [
+      "CG",
+      "CF",
+      "SS",
+      "UG",
+      "RW",
+      "BI",
+      "TZ",
+      "ZM",
+      "AO"
+    ]
+  },
+  "CF": {
+    "name": "中央アフリカ",
+    "formalName": "中央アフリカ共和国",
+    "aliases": [],
+    "flag": "🇨🇫",
+    "borders": [
+      "TD",
+      "SD",
+      "SS",
+      "CD",
+      "CG",
+      "CM"
+    ]
+  },
+  "CG": {
+    "name": "コンゴ共和国",
+    "formalName": "コンゴ共和国",
+    "aliases": [
+      "コンゴ・ブラザヴィル"
+    ],
+    "flag": "🇨🇬",
+    "borders": [
+      "GA",
+      "CM",
+      "CF",
+      "CD",
+      "AO"
+    ]
+  },
+  "CH": {
+    "name": "スイス",
+    "formalName": "スイス連邦",
+    "aliases": [
+      "瑞西"
+    ],
+    "flag": "🇨🇭",
+    "borders": [
+      "FR",
+      "DE",
+      "AT",
+      "LI",
+      "IT"
+    ]
+  },
+  "CI": {
+    "name": "コートジボワール",
+    "formalName": "コートジボワール共和国",
+    "aliases": [
+      "象牙海岸"
+    ],
+    "flag": "🇨🇮",
+    "borders": [
+      "LR",
+      "GN",
+      "ML",
+      "BF",
+      "GH"
+    ]
+  },
+  "CL": {
+    "name": "チリ",
+    "formalName": "チリ共和国",
+    "aliases": [],
+    "flag": "🇨🇱",
+    "borders": [
+      "PE",
+      "BO",
+      "AR"
+    ]
+  },
+  "CM": {
+    "name": "カメルーン",
+    "formalName": "カメルーン共和国",
+    "aliases": [],
+    "flag": "🇨🇲",
+    "borders": [
+      "NG",
+      "TD",
+      "CF",
+      "CG",
+      "GA",
+      "GQ"
+    ]
+  },
+  "CN": {
+    "name": "中華人民共和国",
+    "formalName": "中華人民共和国",
+    "aliases": [
+      "中国"
+    ],
+    "flag": "🇨🇳",
+    "borders": [
+      "RU",
+      "MN",
+      "KP",
+      "VN",
+      "LA",
+      "MM",
+      "IN",
+      "BT",
+      "NP",
+      "PK",
+      "AF",
+      "TJ",
+      "KG",
+      "KZ"
+    ]
+  },
+  "CO": {
+    "name": "コロンビア",
+    "formalName": "コロンビア共和国",
+    "aliases": [],
+    "flag": "🇨🇴",
+    "borders": [
+      "PA",
+      "VE",
+      "BR",
+      "PE",
+      "EC"
+    ]
+  },
+  "CR": {
+    "name": "コスタリカ",
+    "formalName": "コスタリカ共和国",
+    "aliases": [],
+    "flag": "🇨🇷",
+    "borders": [
+      "NI",
+      "PA"
+    ]
+  },
+  "CZ": {
+    "name": "チェコ",
+    "formalName": "チェコ共和国",
+    "aliases": [],
+    "flag": "🇨🇿",
+    "borders": [
+      "DE",
+      "PL",
+      "SK",
+      "AT"
+    ]
+  },
+  "DE": {
+    "name": "ドイツ",
+    "formalName": "ドイツ連邦共和国",
+    "aliases": [
+      "独国"
+    ],
+    "flag": "🇩🇪",
+    "borders": [
+      "DK",
+      "PL",
+      "CZ",
+      "AT",
+      "CH",
+      "FR",
+      "LU",
+      "BE",
+      "NL"
+    ]
+  },
+  "DJ": {
+    "name": "ジブチ",
+    "formalName": "ジブチ共和国",
+    "aliases": [],
+    "flag": "🇩🇯",
+    "borders": [
+      "ER",
+      "ET",
+      "SO"
+    ]
+  },
+  "DK": {
+    "name": "デンマーク",
+    "formalName": "デンマーク王国",
+    "aliases": [],
+    "flag": "🇩🇰",
+    "borders": [
+      "DE"
+    ]
+  },
+  "DO": {
+    "name": "ドミニカ共和国",
+    "formalName": "ドミニカ共和国",
+    "aliases": [],
+    "flag": "🇩🇴",
+    "borders": [
+      "HT"
+    ]
+  },
+  "DZ": {
+    "name": "アルジェリア",
+    "formalName": "アルジェリア民主人民共和国",
+    "aliases": [],
+    "flag": "🇩🇿",
+    "borders": [
+      "TN",
+      "LY",
+      "NE",
+      "ML",
+      "MR",
+      "EH",
+      "MA"
+    ]
+  },
+  "EC": {
+    "name": "エクアドル",
+    "formalName": "エクアドル共和国",
+    "aliases": [],
+    "flag": "🇪🇨",
+    "borders": [
+      "CO",
+      "PE"
+    ]
+  },
+  "EE": {
+    "name": "エストニア",
+    "formalName": "エストニア共和国",
+    "aliases": [],
+    "flag": "🇪🇪",
+    "borders": [
+      "LV",
+      "RU"
+    ]
+  },
+  "EG": {
+    "name": "エジプト",
+    "formalName": "エジプト・アラブ共和国",
+    "aliases": [],
+    "flag": "🇪🇬",
+    "borders": [
+      "LY",
+      "SD",
+      "IL"
+    ]
+  },
+  "EH": {
+    "name": "西サハラ",
+    "formalName": "西サハラ",
+    "aliases": [],
+    "flag": "🇪🇭",
+    "borders": [
+      "MA",
+      "DZ",
+      "MR"
+    ]
+  },
+  "ER": {
+    "name": "エリトリア",
+    "formalName": "エリトリア国",
+    "aliases": [],
+    "flag": "🇪🇷",
+    "borders": [
+      "SD",
+      "ET",
+      "DJ"
+    ]
+  },
+  "ES": {
+    "name": "スペイン",
+    "formalName": "スペイン王国",
+    "aliases": [
+      "西国"
+    ],
+    "flag": "🇪🇸",
+    "borders": [
+      "PT",
+      "FR",
+      "AD"
+    ]
+  },
+  "ET": {
+    "name": "エチオピア",
+    "formalName": "エチオピア連邦民主共和国",
+    "aliases": [],
+    "flag": "🇪🇹",
+    "borders": [
+      "ER",
+      "DJ",
+      "SO",
+      "KE",
+      "SS",
+      "SD"
+    ]
+  },
+  "FI": {
+    "name": "フィンランド",
+    "formalName": "フィンランド共和国",
+    "aliases": [],
+    "flag": "🇫🇮",
+    "borders": [
+      "SE",
+      "NO",
+      "RU"
+    ]
+  },
+  "FR": {
+    "name": "フランス",
+    "formalName": "フランス共和国",
+    "aliases": [
+      "仏国"
+    ],
+    "flag": "🇫🇷",
+    "borders": [
+      "BE",
+      "LU",
+      "DE",
+      "CH",
+      "IT",
+      "MC",
+      "ES",
+      "AD",
+      "BR",
+      "SR"
+    ]
+  },
+  "GA": {
+    "name": "ガボン",
+    "formalName": "ガボン共和国",
+    "aliases": [],
+    "flag": "🇬🇦",
+    "borders": [
+      "GQ",
+      "CM",
+      "CG"
+    ]
+  },
+  "GB": {
+    "name": "英国",
+    "formalName": "グレートブリテン及び北アイルランド連合王国",
+    "aliases": [
+      "イギリス",
+      "連合王国",
+      "UK"
+    ],
+    "flag": "🇬🇧",
+    "borders": [
+      "IE"
+    ]
+  },
+  "GE": {
+    "name": "ジョージア",
+    "formalName": "ジョージア",
+    "aliases": [
+      "旧グルジア"
+    ],
+    "flag": "🇬🇪",
+    "borders": [
+      "RU",
+      "AZ",
+      "AM",
+      "TR"
+    ]
+  },
+  "GH": {
+    "name": "ガーナ",
+    "formalName": "ガーナ共和国",
+    "aliases": [],
+    "flag": "🇬🇭",
+    "borders": [
+      "CI",
+      "BF",
+      "TG"
+    ]
+  },
+  "GM": {
+    "name": "ガンビア",
+    "formalName": "ガンビア共和国",
+    "aliases": [],
+    "flag": "🇬🇲",
+    "borders": [
+      "SN"
+    ]
+  },
+  "GN": {
+    "name": "ギニア",
+    "formalName": "ギニア共和国",
+    "aliases": [],
+    "flag": "🇬🇳",
+    "borders": [
+      "GW",
+      "SN",
+      "ML",
+      "CI",
+      "LR",
+      "SL"
+    ]
+  },
+  "GQ": {
+    "name": "赤道ギニア",
+    "formalName": "赤道ギニア共和国",
+    "aliases": [],
+    "flag": "🇬🇶",
+    "borders": [
+      "CM",
+      "GA"
+    ]
+  },
+  "GR": {
+    "name": "ギリシャ",
+    "formalName": "ギリシャ共和国",
+    "aliases": [],
+    "flag": "🇬🇷",
+    "borders": [
+      "AL",
+      "MK",
+      "BG",
+      "TR"
+    ]
+  },
+  "GT": {
+    "name": "グアテマラ",
+    "formalName": "グアテマラ共和国",
+    "aliases": [],
+    "flag": "🇬🇹",
+    "borders": [
+      "MX",
+      "BZ",
+      "SV",
+      "HN"
+    ]
+  },
+  "GW": {
+    "name": "ギニアビサウ",
+    "formalName": "ギニアビサウ共和国",
+    "aliases": [],
+    "flag": "🇬🇼",
+    "borders": [
+      "SN",
+      "GN"
+    ]
+  },
+  "GY": {
+    "name": "ガイアナ",
+    "formalName": "ガイアナ協同共和国",
+    "aliases": [],
+    "flag": "🇬🇾",
+    "borders": [
+      "VE",
+      "BR",
+      "SR"
+    ]
+  },
+  "HN": {
+    "name": "ホンジュラス",
+    "formalName": "ホンジュラス共和国",
+    "aliases": [],
+    "flag": "🇭🇳",
+    "borders": [
+      "GT",
+      "SV",
+      "NI"
+    ]
+  },
+  "HR": {
+    "name": "クロアチア",
+    "formalName": "クロアチア共和国",
+    "aliases": [],
+    "flag": "🇭🇷",
+    "borders": [
+      "SI",
+      "HU",
+      "RS",
+      "BA",
+      "ME"
+    ]
+  },
+  "HT": {
+    "name": "ハイチ",
+    "formalName": "ハイチ共和国",
+    "aliases": [],
+    "flag": "🇭🇹",
+    "borders": [
+      "DO"
+    ]
+  },
+  "HU": {
+    "name": "ハンガリー",
+    "formalName": "ハンガリー",
+    "aliases": [],
+    "flag": "🇭🇺",
+    "borders": [
+      "AT",
+      "SK",
+      "UA",
+      "RO",
+      "RS",
+      "HR",
+      "SI"
+    ]
+  },
+  "ID": {
+    "name": "インドネシア",
+    "formalName": "インドネシア共和国",
+    "aliases": [],
+    "flag": "🇮🇩",
+    "borders": [
+      "MY",
+      "PG",
+      "TL"
+    ]
+  },
+  "IE": {
+    "name": "アイルランド",
+    "formalName": "アイルランド",
+    "aliases": [],
+    "flag": "🇮🇪",
+    "borders": [
+      "GB"
+    ]
+  },
+  "IL": {
+    "name": "イスラエル",
+    "formalName": "イスラエル国",
+    "aliases": [],
+    "flag": "🇮🇱",
+    "borders": [
+      "LB",
+      "SY",
+      "JO",
+      "EG"
+    ]
+  },
+  "IN": {
+    "name": "インド",
+    "formalName": "インド",
+    "aliases": [],
+    "flag": "🇮🇳",
+    "borders": [
+      "PK",
+      "CN",
+      "NP",
+      "BT",
+      "MM",
+      "BD"
+    ]
+  },
+  "IQ": {
+    "name": "イラク",
+    "formalName": "イラク共和国",
+    "aliases": [],
+    "flag": "🇮🇶",
+    "borders": [
+      "TR",
+      "IR",
+      "KW",
+      "SA",
+      "JO",
+      "SY"
+    ]
+  },
+  "IR": {
+    "name": "イラン",
+    "formalName": "イラン・イスラム共和国",
+    "aliases": [],
+    "flag": "🇮🇷",
+    "borders": [
+      "TR",
+      "IQ",
+      "AZ",
+      "AM",
+      "TM",
+      "AF",
+      "PK"
+    ]
+  },
+  "IT": {
+    "name": "イタリア",
+    "formalName": "イタリア共和国",
+    "aliases": [
+      "伊国"
+    ],
+    "flag": "🇮🇹",
+    "borders": [
+      "FR",
+      "CH",
+      "AT",
+      "SI",
+      "SM",
+      "VA"
+    ]
+  },
+  "JO": {
+    "name": "ヨルダン",
+    "formalName": "ヨルダン・ハシェミット王国",
+    "aliases": [],
+    "flag": "🇯🇴",
+    "borders": [
+      "SY",
+      "IQ",
+      "SA",
+      "IL"
+    ]
+  },
+  "KE": {
+    "name": "ケニア",
+    "formalName": "ケニア共和国",
+    "aliases": [],
+    "flag": "🇰🇪",
+    "borders": [
+      "ET",
+      "SO",
+      "TZ",
+      "UG",
+      "SS"
+    ]
+  },
+  "KG": {
+    "name": "キルギス",
+    "formalName": "キルギス共和国",
+    "aliases": [],
+    "flag": "🇰🇬",
+    "borders": [
+      "KZ",
+      "CN",
+      "TJ",
+      "UZ"
+    ]
+  },
+  "KH": {
+    "name": "カンボジア",
+    "formalName": "カンボジア王国",
+    "aliases": [],
+    "flag": "🇰🇭",
+    "borders": [
+      "TH",
+      "LA",
+      "VN"
+    ]
+  },
+  "KP": {
+    "name": "北朝鮮",
+    "formalName": "朝鮮民主主義人民共和国",
+    "aliases": [],
+    "flag": "🇰🇵",
+    "borders": [
+      "CN",
+      "RU",
+      "KR"
+    ]
+  },
+  "KR": {
+    "name": "大韓民国",
+    "formalName": "大韓民国",
+    "aliases": [
+      "韓国"
+    ],
+    "flag": "🇰🇷",
+    "borders": [
+      "KP"
+    ]
+  },
+  "KW": {
+    "name": "クウェート",
+    "formalName": "クウェート国",
+    "aliases": [],
+    "flag": "🇰🇼",
+    "borders": [
+      "IQ",
+      "SA"
+    ]
+  },
+  "KZ": {
+    "name": "カザフスタン",
+    "formalName": "カザフスタン共和国",
+    "aliases": [],
+    "flag": "🇰🇿",
+    "borders": [
+      "RU",
+      "CN",
+      "KG",
+      "UZ",
+      "TM"
+    ]
+  },
+  "LA": {
+    "name": "ラオス",
+    "formalName": "ラオス人民民主共和国",
+    "aliases": [],
+    "flag": "🇱🇦",
+    "borders": [
+      "CN",
+      "VN",
+      "KH",
+      "TH",
+      "MM"
+    ]
+  },
+  "LB": {
+    "name": "レバノン",
+    "formalName": "レバノン共和国",
+    "aliases": [],
+    "flag": "🇱🇧",
+    "borders": [
+      "SY",
+      "IL"
+    ]
+  },
+  "LI": {
+    "name": "リヒテンシュタイン",
+    "formalName": "リヒテンシュタイン公国",
+    "aliases": [],
+    "flag": "🇱🇮",
+    "borders": [
+      "CH",
+      "AT"
+    ]
+  },
+  "LR": {
+    "name": "リベリア",
+    "formalName": "リベリア共和国",
+    "aliases": [],
+    "flag": "🇱🇷",
+    "borders": [
+      "SL",
+      "GN",
+      "CI"
+    ]
+  },
+  "LS": {
+    "name": "レソト",
+    "formalName": "レソト王国",
+    "aliases": [],
+    "flag": "🇱🇸",
+    "borders": [
+      "ZA"
+    ]
+  },
+  "LT": {
+    "name": "リトアニア",
+    "formalName": "リトアニア共和国",
+    "aliases": [],
+    "flag": "🇱🇹",
+    "borders": [
+      "LV",
+      "BY",
+      "PL",
+      "RU"
+    ]
+  },
+  "LU": {
+    "name": "ルクセンブルク",
+    "formalName": "ルクセンブルク大公国",
+    "aliases": [],
+    "flag": "🇱🇺",
+    "borders": [
+      "BE",
+      "DE",
+      "FR"
+    ]
+  },
+  "LV": {
+    "name": "ラトビア",
+    "formalName": "ラトビア共和国",
+    "aliases": [],
+    "flag": "🇱🇻",
+    "borders": [
+      "EE",
+      "RU",
+      "BY",
+      "LT"
+    ]
+  },
+  "LY": {
+    "name": "リビア",
+    "formalName": "リビア",
+    "aliases": [],
+    "flag": "🇱🇾",
+    "borders": [
+      "TN",
+      "DZ",
+      "NE",
+      "TD",
+      "SD",
+      "EG"
+    ]
+  },
+  "MA": {
+    "name": "モロッコ",
+    "formalName": "モロッコ王国",
+    "aliases": [],
+    "flag": "🇲🇦",
+    "borders": [
+      "DZ",
+      "EH"
+    ]
+  },
+  "MC": {
+    "name": "モナコ",
+    "formalName": "モナコ公国",
+    "aliases": [],
+    "flag": "🇲🇨",
+    "borders": [
+      "FR"
+    ]
+  },
+  "MD": {
+    "name": "モルドバ",
+    "formalName": "モルドバ共和国",
+    "aliases": [],
+    "flag": "🇲🇩",
+    "borders": [
+      "RO",
+      "UA"
+    ]
+  },
+  "ME": {
+    "name": "モンテネグロ",
+    "formalName": "モンテネグロ",
+    "aliases": [],
+    "flag": "🇲🇪",
+    "borders": [
+      "HR",
+      "BA",
+      "RS",
+      "XK",
+      "AL"
+    ]
+  },
+  "MK": {
+    "name": "北マケドニア",
+    "formalName": "北マケドニア共和国",
+    "aliases": [
+      "旧マケドニア"
+    ],
+    "flag": "🇲🇰",
+    "borders": [
+      "XK",
+      "RS",
+      "BG",
+      "GR",
+      "AL"
+    ]
+  },
+  "ML": {
+    "name": "マリ",
+    "formalName": "マリ共和国",
+    "aliases": [],
+    "flag": "🇲🇱",
+    "borders": [
+      "DZ",
+      "NE",
+      "BF",
+      "CI",
+      "GN",
+      "SN",
+      "MR"
+    ]
+  },
+  "MM": {
+    "name": "ミャンマー",
+    "formalName": "ミャンマー連邦共和国",
+    "aliases": [
+      "旧ビルマ"
+    ],
+    "flag": "🇲🇲",
+    "borders": [
+      "CN",
+      "LA",
+      "TH",
+      "IN",
+      "BD"
+    ]
+  },
+  "MN": {
+    "name": "モンゴル",
+    "formalName": "モンゴル国",
+    "aliases": [],
+    "flag": "🇲🇳",
+    "borders": [
+      "RU",
+      "CN"
+    ]
+  },
+  "MR": {
+    "name": "モーリタニア",
+    "formalName": "モーリタニア・イスラム共和国",
+    "aliases": [],
+    "flag": "🇲🇷",
+    "borders": [
+      "DZ",
+      "ML",
+      "SN",
+      "EH"
+    ]
+  },
+  "MW": {
+    "name": "マラウイ",
+    "formalName": "マラウイ共和国",
+    "aliases": [],
+    "flag": "🇲🇼",
+    "borders": [
+      "TZ",
+      "MZ",
+      "ZM"
+    ]
+  },
+  "MX": {
+    "name": "メキシコ",
+    "formalName": "メキシコ合衆国",
+    "aliases": [],
+    "flag": "🇲🇽",
+    "borders": [
+      "US",
+      "GT",
+      "BZ"
+    ]
+  },
+  "MY": {
+    "name": "マレーシア",
+    "formalName": "マレーシア",
+    "aliases": [],
+    "flag": "🇲🇾",
+    "borders": [
+      "TH",
+      "ID",
+      "BN"
+    ]
+  },
+  "MZ": {
+    "name": "モザンビーク",
+    "formalName": "モザンビーク共和国",
+    "aliases": [],
+    "flag": "🇲🇿",
+    "borders": [
+      "TZ",
+      "MW",
+      "ZM",
+      "ZW",
+      "SZ",
+      "ZA"
+    ]
+  },
+  "NA": {
+    "name": "ナミビア",
+    "formalName": "ナミビア共和国",
+    "aliases": [],
+    "flag": "🇳🇦",
+    "borders": [
+      "AO",
+      "ZM",
+      "BW",
+      "ZA"
+    ]
+  },
+  "NE": {
+    "name": "ニジェール",
+    "formalName": "ニジェール共和国",
+    "aliases": [],
+    "flag": "🇳🇪",
+    "borders": [
+      "DZ",
+      "LY",
+      "TD",
+      "NG",
+      "BJ",
+      "BF",
+      "ML"
+    ]
+  },
+  "NG": {
+    "name": "ナイジェリア",
+    "formalName": "ナイジェリア連邦共和国",
+    "aliases": [],
+    "flag": "🇳🇬",
+    "borders": [
+      "BJ",
+      "NE",
+      "TD",
+      "CM"
+    ]
+  },
+  "NI": {
+    "name": "ニカラグア",
+    "formalName": "ニカラグア共和国",
+    "aliases": [],
+    "flag": "🇳🇮",
+    "borders": [
+      "HN",
+      "CR"
+    ]
+  },
+  "NL": {
+    "name": "オランダ",
+    "formalName": "オランダ王国",
+    "aliases": [
+      "ネーデルラント",
+      "蘭国"
+    ],
+    "flag": "🇳🇱",
+    "borders": [
+      "DE",
+      "BE"
+    ]
+  },
+  "NO": {
+    "name": "ノルウェー",
+    "formalName": "ノルウェー王国",
+    "aliases": [],
+    "flag": "🇳🇴",
+    "borders": [
+      "SE",
+      "FI",
+      "RU"
+    ]
+  },
+  "NP": {
+    "name": "ネパール",
+    "formalName": "ネパール",
+    "aliases": [],
+    "flag": "🇳🇵",
+    "borders": [
+      "CN",
+      "IN"
+    ]
+  },
+  "OM": {
+    "name": "オマーン",
+    "formalName": "オマーン国",
+    "aliases": [],
+    "flag": "🇴🇲",
+    "borders": [
+      "SA",
+      "AE",
+      "YE"
+    ]
+  },
+  "PA": {
+    "name": "パナマ",
+    "formalName": "パナマ共和国",
+    "aliases": [],
+    "flag": "🇵🇦",
+    "borders": [
+      "CR",
+      "CO"
+    ]
+  },
+  "PE": {
+    "name": "ペルー",
+    "formalName": "ペルー共和国",
+    "aliases": [],
+    "flag": "🇵🇪",
+    "borders": [
+      "EC",
+      "CO",
+      "BR",
+      "BO",
+      "CL"
+    ]
+  },
+  "PG": {
+    "name": "パプアニューギニア",
+    "formalName": "パプアニューギニア独立国",
+    "aliases": [],
+    "flag": "🇵🇬",
+    "borders": [
+      "ID"
+    ]
+  },
+  "PK": {
+    "name": "パキスタン",
+    "formalName": "パキスタン・イスラム共和国",
+    "aliases": [],
+    "flag": "🇵🇰",
+    "borders": [
+      "IR",
+      "AF",
+      "CN",
+      "IN"
+    ]
+  },
+  "PL": {
+    "name": "ポーランド",
+    "formalName": "ポーランド共和国",
+    "aliases": [],
+    "flag": "🇵🇱",
+    "borders": [
+      "DE",
+      "CZ",
+      "SK",
+      "UA",
+      "BY",
+      "LT",
+      "RU"
+    ]
+  },
+  "PT": {
+    "name": "ポルトガル",
+    "formalName": "ポルトガル共和国",
+    "aliases": [],
+    "flag": "🇵🇹",
+    "borders": [
+      "ES"
+    ]
+  },
+  "PY": {
+    "name": "パラグアイ",
+    "formalName": "パラグアイ共和国",
+    "aliases": [],
+    "flag": "🇵🇾",
+    "borders": [
+      "BO",
+      "BR",
+      "AR"
+    ]
+  },
+  "QA": {
+    "name": "カタール",
+    "formalName": "カタール国",
+    "aliases": [],
+    "flag": "🇶🇦",
+    "borders": [
+      "SA"
+    ]
+  },
+  "RO": {
+    "name": "ルーマニア",
+    "formalName": "ルーマニア",
+    "aliases": [],
+    "flag": "🇷🇴",
+    "borders": [
+      "HU",
+      "UA",
+      "MD",
+      "BG",
+      "RS"
+    ]
+  },
+  "RS": {
+    "name": "セルビア",
+    "formalName": "セルビア共和国",
+    "aliases": [],
+    "flag": "🇷🇸",
+    "borders": [
+      "HU",
+      "RO",
+      "BG",
+      "MK",
+      "XK",
+      "ME",
+      "BA",
+      "HR"
+    ]
+  },
+  "RU": {
+    "name": "ロシア",
+    "formalName": "ロシア連邦",
+    "aliases": [
+      "露国"
+    ],
+    "flag": "🇷🇺",
+    "borders": [
+      "NO",
+      "FI",
+      "EE",
+      "LV",
+      "LT",
+      "PL",
+      "BY",
+      "UA",
+      "GE",
+      "AZ",
+      "KZ",
+      "MN",
+      "CN",
+      "KP"
+    ]
+  },
+  "RW": {
+    "name": "ルワンダ",
+    "formalName": "ルワンダ共和国",
+    "aliases": [],
+    "flag": "🇷🇼",
+    "borders": [
+      "UG",
+      "TZ",
+      "BI",
+      "CD"
+    ]
+  },
+  "SA": {
+    "name": "サウジアラビア",
+    "formalName": "サウジアラビア王国",
+    "aliases": [],
+    "flag": "🇸🇦",
+    "borders": [
+      "JO",
+      "IQ",
+      "KW",
+      "QA",
+      "AE",
+      "OM",
+      "YE"
+    ]
+  },
+  "SD": {
+    "name": "スーダン",
+    "formalName": "スーダン共和国",
+    "aliases": [],
+    "flag": "🇸🇩",
+    "borders": [
+      "EG",
+      "LY",
+      "TD",
+      "CF",
+      "SS",
+      "ET",
+      "ER"
+    ]
+  },
+  "SE": {
+    "name": "スウェーデン",
+    "formalName": "スウェーデン王国",
+    "aliases": [
+      "瑞典"
+    ],
+    "flag": "🇸🇪",
+    "borders": [
+      "NO",
+      "FI"
+    ]
+  },
+  "SI": {
+    "name": "スロベニア",
+    "formalName": "スロベニア共和国",
+    "aliases": [],
+    "flag": "🇸🇮",
+    "borders": [
+      "IT",
+      "AT",
+      "HU",
+      "HR"
+    ]
+  },
+  "SK": {
+    "name": "スロバキア",
+    "formalName": "スロバキア共和国",
+    "aliases": [],
+    "flag": "🇸🇰",
+    "borders": [
+      "CZ",
+      "PL",
+      "UA",
+      "HU",
+      "AT"
+    ]
+  },
+  "SL": {
+    "name": "シエラレオネ",
+    "formalName": "シエラレオネ共和国",
+    "aliases": [],
+    "flag": "🇸🇱",
+    "borders": [
+      "GN",
+      "LR"
+    ]
+  },
+  "SM": {
+    "name": "サンマリノ",
+    "formalName": "サンマリノ共和国",
+    "aliases": [],
+    "flag": "🇸🇲",
+    "borders": [
+      "IT"
+    ]
+  },
+  "SN": {
+    "name": "セネガル",
+    "formalName": "セネガル共和国",
+    "aliases": [],
+    "flag": "🇸🇳",
+    "borders": [
+      "MR",
+      "ML",
+      "GN",
+      "GW",
+      "GM"
+    ]
+  },
+  "SO": {
+    "name": "ソマリア",
+    "formalName": "ソマリア連邦共和国",
+    "aliases": [],
+    "flag": "🇸🇴",
+    "borders": [
+      "DJ",
+      "ET",
+      "KE"
+    ]
+  },
+  "SR": {
+    "name": "スリナム",
+    "formalName": "スリナム共和国",
+    "aliases": [],
+    "flag": "🇸🇷",
+    "borders": [
+      "GY",
+      "BR",
+      "FR"
+    ]
+  },
+  "SS": {
+    "name": "南スーダン",
+    "formalName": "南スーダン共和国",
+    "aliases": [],
+    "flag": "🇸🇸",
+    "borders": [
+      "SD",
+      "ET",
+      "KE",
+      "UG",
+      "CD",
+      "CF"
+    ]
+  },
+  "SV": {
+    "name": "エルサルバドル",
+    "formalName": "エルサルバドル共和国",
+    "aliases": [],
+    "flag": "🇸🇻",
+    "borders": [
+      "GT",
+      "HN"
+    ]
+  },
+  "SY": {
+    "name": "シリア",
+    "formalName": "シリア・アラブ共和国",
+    "aliases": [],
+    "flag": "🇸🇾",
+    "borders": [
+      "TR",
+      "IQ",
+      "JO",
+      "IL",
+      "LB"
+    ]
+  },
+  "SZ": {
+    "name": "エスワティニ",
+    "formalName": "エスワティニ王国",
+    "aliases": [
+      "旧スワジランド"
+    ],
+    "flag": "🇸🇿",
+    "borders": [
+      "ZA",
+      "MZ"
+    ]
+  },
+  "TD": {
+    "name": "チャド",
+    "formalName": "チャド共和国",
+    "aliases": [],
+    "flag": "🇹🇩",
+    "borders": [
+      "LY",
+      "SD",
+      "CF",
+      "CM",
+      "NG",
+      "NE"
+    ]
+  },
+  "TG": {
+    "name": "トーゴ",
+    "formalName": "トーゴ共和国",
+    "aliases": [],
+    "flag": "🇹🇬",
+    "borders": [
+      "GH",
+      "BF",
+      "BJ"
+    ]
+  },
+  "TH": {
+    "name": "タイ",
+    "formalName": "タイ王国",
+    "aliases": [],
+    "flag": "🇹🇭",
+    "borders": [
+      "MM",
+      "LA",
+      "KH",
+      "MY"
+    ]
+  },
+  "TJ": {
+    "name": "タジキスタン",
+    "formalName": "タジキスタン共和国",
+    "aliases": [],
+    "flag": "🇹🇯",
+    "borders": [
+      "KG",
+      "CN",
+      "AF",
+      "UZ"
+    ]
+  },
+  "TL": {
+    "name": "東ティモール",
+    "formalName": "東ティモール民主共和国",
+    "aliases": [],
+    "flag": "🇹🇱",
+    "borders": [
+      "ID"
+    ]
+  },
+  "TM": {
+    "name": "トルクメニスタン",
+    "formalName": "トルクメニスタン",
+    "aliases": [],
+    "flag": "🇹🇲",
+    "borders": [
+      "KZ",
+      "UZ",
+      "AF",
+      "IR"
+    ]
+  },
+  "TN": {
+    "name": "チュニジア",
+    "formalName": "チュニジア共和国",
+    "aliases": [],
+    "flag": "🇹🇳",
+    "borders": [
+      "DZ",
+      "LY"
+    ]
+  },
+  "TR": {
+    "name": "トルコ",
+    "formalName": "トルコ共和国",
+    "aliases": [],
+    "flag": "🇹🇷",
+    "borders": [
+      "GR",
+      "BG",
+      "GE",
+      "AM",
+      "AZ",
+      "IR",
+      "IQ",
+      "SY"
+    ]
+  },
+  "TZ": {
+    "name": "タンザニア",
+    "formalName": "タンザニア連合共和国",
+    "aliases": [],
+    "flag": "🇹🇿",
+    "borders": [
+      "KE",
+      "UG",
+      "RW",
+      "BI",
+      "CD",
+      "ZM",
+      "MW",
+      "MZ"
+    ]
+  },
+  "UA": {
+    "name": "ウクライナ",
+    "formalName": "ウクライナ",
+    "aliases": [],
+    "flag": "🇺🇦",
+    "borders": [
+      "BY",
+      "RU",
+      "RO",
+      "MD",
+      "PL",
+      "SK",
+      "HU"
+    ]
+  },
+  "UG": {
+    "name": "ウガンダ",
+    "formalName": "ウガンダ共和国",
+    "aliases": [],
+    "flag": "🇺🇬",
+    "borders": [
+      "SS",
+      "KE",
+      "TZ",
+      "RW",
+      "CD"
+    ]
+  },
+  "US": {
+    "name": "アメリカ合衆国",
+    "formalName": "アメリカ合衆国",
+    "aliases": [
+      "米国",
+      "合衆国"
+    ],
+    "flag": "🇺🇸",
+    "borders": [
+      "CA",
+      "MX"
+    ]
+  },
+  "UY": {
+    "name": "ウルグアイ",
+    "formalName": "ウルグアイ東方共和国",
+    "aliases": [],
+    "flag": "🇺🇾",
+    "borders": [
+      "AR",
+      "BR"
+    ]
+  },
+  "UZ": {
+    "name": "ウズベキスタン",
+    "formalName": "ウズベキスタン共和国",
+    "aliases": [],
+    "flag": "🇺🇿",
+    "borders": [
+      "KZ",
+      "TM",
+      "AF",
+      "TJ",
+      "KG"
+    ]
+  },
+  "VA": {
+    "name": "バチカン",
+    "formalName": "バチカン市国",
+    "aliases": [],
+    "flag": "🇻🇦",
+    "borders": [
+      "IT"
+    ]
+  },
+  "VE": {
+    "name": "ベネズエラ",
+    "formalName": "ベネズエラ・ボリバル共和国",
+    "aliases": [],
+    "flag": "🇻🇪",
+    "borders": [
+      "CO",
+      "BR",
+      "GY"
+    ]
+  },
+  "VN": {
+    "name": "ベトナム",
+    "formalName": "ベトナム社会主義共和国",
+    "aliases": [],
+    "flag": "🇻🇳",
+    "borders": [
+      "CN",
+      "LA",
+      "KH"
+    ]
+  },
+  "XK": {
+    "name": "コソボ",
+    "formalName": "コソボ共和国",
+    "aliases": [],
+    "flag": "🇽🇰",
+    "borders": [
+      "RS",
+      "MK",
+      "AL",
+      "ME"
+    ]
+  },
+  "YE": {
+    "name": "イエメン",
+    "formalName": "イエメン共和国",
+    "aliases": [],
+    "flag": "🇾🇪",
+    "borders": [
+      "SA",
+      "OM"
+    ]
+  },
+  "ZA": {
+    "name": "南アフリカ",
+    "formalName": "南アフリカ共和国",
+    "aliases": [],
+    "flag": "🇿🇦",
+    "borders": [
+      "NA",
+      "BW",
+      "ZW",
+      "MZ",
+      "SZ",
+      "LS"
+    ]
+  },
+  "ZM": {
+    "name": "ザンビア",
+    "formalName": "ザンビア共和国",
+    "aliases": [],
+    "flag": "🇿🇲",
+    "borders": [
+      "CD",
+      "TZ",
+      "MW",
+      "MZ",
+      "ZW",
+      "BW",
+      "NA",
+      "AO"
+    ]
+  },
+  "ZW": {
+    "name": "ジンバブエ",
+    "formalName": "ジンバブエ共和国",
+    "aliases": [],
+    "flag": "🇿🇼",
+    "borders": [
+      "ZM",
+      "MZ",
+      "ZA",
+      "BW"
+    ]
+  }
+}

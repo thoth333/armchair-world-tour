@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>正解後：現在地が更新され、次の入力欄が空白の状態</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Sans+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Noto Sans JP', 'Noto Sans Display', sans-serif; }
+  .nsd { font-family: 'Noto Sans Display', 'Noto Sans JP', sans-serif; }
+</style>
+</head>
+<body class="bg-neutral-200 min-h-screen flex items-center justify-center p-6">
+  <div class="w-[375px] h-[720px] bg-white rounded-[2rem] shadow-2xl overflow-hidden relative p-7">
+
+    <button class="absolute left-7 top-7 flex flex-col justify-center gap-1.5 w-8 h-8">
+      <span class="block h-0.5 w-6 bg-black"></span>
+      <span class="block h-0.5 w-6 bg-black"></span>
+      <span class="block h-0.5 w-6 bg-black"></span>
+    </button>
+
+    <div class="text-center mb-14 mt-1">
+      <h1 class="text-black text-base font-bold tracking-[0.2em]">脳内世界旅行</h1>
+    </div>
+    <div>
+      <!-- 現在地がモンゴルに更新済み、カウントも5カ国目に -->
+      <div class="flex items-baseline justify-between mb-3">
+        <p class="text-neutral-500 text-sm">現在地</p>
+        <p class="text-neutral-400 text-xs nsd"><span class="text-neutral-600 font-bold text-sm">5</span> カ国目</p>
+      </div>
+      <p class="text-neutral-400 text-3xl font-medium mb-8">モンゴル</p>
+
+      <div class="flex items-center gap-4 mb-8">
+        <div class="flex-1 h-px bg-neutral-200"></div>
+        <span class="text-neutral-400 text-xs nsd tracking-widest">TO</span>
+        <div class="flex-1 h-px bg-neutral-200"></div>
+      </div>
+
+      <!-- 次の目的地：入力待ちの空白状態 -->
+      <p class="text-neutral-500 text-sm mb-3">次の目的地</p>
+      <div class="flex items-baseline gap-1">
+        <p class="text-neutral-300 text-5xl font-bold tracking-tight">&nbsp;</p>
+        <span class="w-[3px] h-11 bg-neutral-800 animate-pulse"></span>
+      </div>
+      <p class="text-neutral-300 text-xs nsd tracking-wide mt-2">入力してください</p>
+    </div>
+  </div>
+</body>
+</html>

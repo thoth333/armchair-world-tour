@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>脳内世界旅行 - 02 メニューを開いた状態</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Sans+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Noto Sans JP', 'Noto Sans Display', sans-serif; }
+  .nsd { font-family: 'Noto Sans Display', 'Noto Sans JP', sans-serif; }
+</style>
+</head>
+<body class="bg-neutral-200 min-h-screen flex items-center justify-center p-6">
+  <div class="w-[375px] h-[720px] bg-white rounded-[2rem] shadow-2xl overflow-hidden relative">
+
+    <!-- メイン画面（背景） -->
+    <div class="w-full h-full relative p-7">
+      <button class="absolute left-7 top-7 flex flex-col justify-center gap-1.5 w-8 h-8">
+        <span class="block h-0.5 w-6 bg-black"></span>
+        <span class="block h-0.5 w-6 bg-black"></span>
+        <span class="block h-0.5 w-6 bg-black"></span>
+      </button>
+      <div class="text-center mb-14 mt-1">
+        <h1 class="text-black text-base font-bold tracking-[0.2em]">脳内世界旅行</h1>
+      </div>
+      <div>
+        <div class="flex items-baseline justify-between mb-3">
+          <p class="text-neutral-500 text-sm">現在地</p>
+          <p class="text-neutral-400 text-xs nsd"><span class="text-neutral-600 font-bold text-sm">4</span> カ国目</p>
+        </div>
+        <p class="text-neutral-400 text-3xl font-medium mb-8">中国</p>
+        <div class="flex items-center gap-4 mb-8">
+          <div class="flex-1 h-px bg-neutral-200"></div>
+          <span class="text-neutral-400 text-xs nsd tracking-widest">TO</span>
+          <div class="flex-1 h-px bg-neutral-200"></div>
+        </div>
+        <p class="text-neutral-500 text-sm mb-3">次の目的地</p>
+        <p class="text-[#C99A2E] text-5xl font-bold tracking-tight">モンゴル</p>
+      </div>
+    </div>
+
+    <!-- 半透明オーバーレイ -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- オフキャンバスメニュー -->
+    <div class="absolute left-0 top-0 bottom-0 w-[78%] bg-white shadow-2xl p-6 flex flex-col">
+
+      <!-- 上部：閉じる + 一つ戻る -->
+      <div class="flex items-center justify-between mb-8">
+        <button class="text-black">
+          <span class="text-2xl leading-none">×</span>
+        </button>
+        <button class="flex items-center gap-1.5 text-neutral-500 text-xs border border-neutral-200 rounded-full pl-2 pr-3 py-1.5">
+          <span class="text-sm leading-none">←</span>
+          <span class="nsd tracking-wide">一つ戻る</span>
+        </button>
+      </div>
+
+      <p class="text-neutral-400 text-xs tracking-widest nsd mb-5">これまでの旅程</p>
+
+      <!-- 縦に連なる国名リスト（右端に地図ピン） -->
+      <div class="relative pl-5 flex-1 overflow-y-auto">
+        <div class="absolute left-1 top-1 bottom-1 w-px bg-neutral-200"></div>
+
+        <div class="space-y-5">
+          <div class="relative flex items-center justify-between pr-1">
+            <div class="absolute -left-5 top-1 w-2 h-2 rounded-full bg-neutral-300"></div>
+            <p class="text-neutral-400 text-sm">日本</p>
+            <button class="text-neutral-300 w-6 h-6 flex items-center justify-center shrink-0">
+              <span class="text-sm">📍</span>
+            </button>
+          </div>
+          <div class="relative flex items-center justify-between pr-1">
+            <div class="absolute -left-5 top-1 w-2 h-2 rounded-full bg-neutral-300"></div>
+            <p class="text-neutral-400 text-sm">韓国</p>
+            <button class="text-neutral-300 w-6 h-6 flex items-center justify-center shrink-0">
+              <span class="text-sm">📍</span>
+            </button>
+          </div>
+          <div class="relative flex items-center justify-between pr-1">
+            <div class="absolute -left-5 top-1 w-2 h-2 rounded-full bg-neutral-500"></div>
+            <p class="text-neutral-700 text-base font-bold">中国</p>
+            <button class="text-neutral-400 w-6 h-6 flex items-center justify-center shrink-0">
+              <span class="text-sm">📍</span>
+            </button>
+          </div>
+          <div class="relative flex items-center justify-between pr-1">
+            <div class="absolute -left-5 top-1.5 w-2.5 h-2.5 rounded-full bg-[#C99A2E]"></div>
+            <p class="text-[#C99A2E] text-base font-bold">モンゴル</p>
+            <button class="text-[#C99A2E] w-6 h-6 flex items-center justify-center shrink-0">
+              <span class="text-sm">📍</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- リセット：控えめなテキストリンク -->
+      <div class="pt-6 mt-6 border-t border-neutral-100">
+        <button class="text-neutral-400 text-xs nsd tracking-wide underline decoration-neutral-200 underline-offset-4">
+          最初からやり直す
+        </button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
