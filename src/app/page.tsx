@@ -57,6 +57,10 @@ export default function Home() {
   const ordinal = Math.max(history.length, 1);
   const destinationLabel = history.length === 0 ? "最初の国" : "次の目的地";
   const pendingCode = inputValue.trim() ? matchCountry(inputValue) : null;
+  const historySet = new Set(history);
+  const isDeadEnd =
+    currentCode !== null &&
+    countryData[currentCode].borders.every((code) => historySet.has(code));
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -136,7 +140,13 @@ export default function Home() {
                 readOnly={!!popup}
                 value={inputValue}
                 onChange={handleChange}
-                placeholder={history.length === 0 ? "国名" : ""}
+                placeholder={
+                  history.length === 0
+                    ? "国名"
+                    : isDeadEnd
+                      ? "行き止まり"
+                      : ""
+                }
                 aria-label={destinationLabel}
                 className={
                   "w-full bg-transparent outline-none text-5xl font-bold tracking-tight placeholder:text-5xl placeholder:font-medium " +
