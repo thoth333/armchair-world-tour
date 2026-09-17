@@ -8,8 +8,16 @@ import { HistoryDrawer } from "@/components/HistoryDrawer";
 import { CorrectPopup } from "@/components/CorrectPopup";
 
 export default function Home() {
-  const { history, errorText, popup, submitCountry, clearError, undoLast, reset } =
-    useGameState();
+  const {
+    history,
+    errorText,
+    popup,
+    submitCountry,
+    clearError,
+    dismissPopup,
+    undoLast,
+    reset,
+  } = useGameState();
   const [inputValue, setInputValue] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -24,6 +32,21 @@ export default function Home() {
       inputRef.current?.focus();
     }
   }, [history.length]);
+
+  // ポップアップ表示中はEnterキーでも閉じられるようにする。
+  useEffect(() => {
+    if (!popup) return;
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Enter") {
+        // preventDefaultしないと、入力欄が保持したままの値でフォームの
+        // 暗黙的送信も発生し、直後に「既に使用されています」等の誤判定が起きる。
+        e.preventDefault();
+        dismissPopup();
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [popup, dismissPopup]);
 
   const currentCode = history[history.length - 1] ?? null;
   const currentName = currentCode ? countryData[currentCode].name : "スタート";
@@ -138,7 +161,13 @@ export default function Home() {
           onReset={handleReset}
         />
 
-        {popup && <CorrectPopup fromCode={popup.fromCode} toCode={popup.toCode} />}
+        {popup && (
+          <CorrectPopup
+            fromCode={popup.fromCode}
+            toCode={popup.toCode}
+            onDismiss={dismissPopup}
+          />
+        )}
       </div>
     </div>
   );

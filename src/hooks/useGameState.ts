@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import type { CountryCode } from "@/lib/countryData";
 import { matchCountry } from "@/lib/matchCountry";
 import { judgeMove } from "@/lib/judge";
@@ -19,8 +19,27 @@ export function useGameState() {
   const [history, setHistory] = useState<CountryCode[]>([]);
   const [errorText, setErrorText] = useState<string | null>(null);
   const [popup, setPopup] = useState<PopupInfo | null>(null);
+  const popupTimeoutRef = useRef<number | null>(null);
+
+  const clearPopupTimeout = useCallback(() => {
+    if (popupTimeoutRef.current !== null) {
+      window.clearTimeout(popupTimeoutRef.current);
+      popupTimeoutRef.current = null;
+    }
+  }, []);
 
   const clearError = useCallback(() => setErrorText(null), []);
+
+  // ポップアップをEnterキーやクリックで即座に閉じるための処理。
+  // タイマーによる自動進行と同じ結果になるよう、履歴への追加を前倒しで行う。
+  const dismissPopup = useCallback(() => {
+    clearPopupTimeout();
+    setPopup((current) => {
+      if (!current) return null;
+      setHistory((prev) => [...prev, current.toCode]);
+      return null;
+    });
+  }, [clearPopupTimeout]);
 
   const submitCountry = useCallback(
     (rawInput: string): boolean => {
@@ -60,26 +79,30 @@ export function useGameState() {
 
       setErrorText(null);
       setPopup({ fromCode, toCode });
-      window.setTimeout(() => {
+      clearPopupTimeout();
+      popupTimeoutRef.current = window.setTimeout(() => {
+        popupTimeoutRef.current = null;
         setHistory((prev) => [...prev, toCode]);
         setPopup(null);
       }, POPUP_DURATION_MS);
       return true;
     },
-    [history, popup]
+    [history, popup, clearPopupTimeout]
   );
 
   const undoLast = useCallback(() => {
+    clearPopupTimeout();
     setHistory((prev) => prev.slice(0, -1));
     setErrorText(null);
     setPopup(null);
-  }, []);
+  }, [clearPopupTimeout]);
 
   const reset = useCallback(() => {
+    clearPopupTimeout();
     setHistory([]);
     setErrorText(null);
     setPopup(null);
-  }, []);
+  }, [clearPopupTimeout]);
 
   return {
     history,
@@ -87,6 +110,7 @@ export function useGameState() {
     popup,
     submitCountry,
     clearError,
+    dismissPopup,
     undoLast,
     reset,
   };
