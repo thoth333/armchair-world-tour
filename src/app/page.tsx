@@ -84,8 +84,8 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-dvh w-full flex items-center justify-center sm:p-6">
-      <div className="w-full sm:w-[375px] h-dvh sm:h-[720px] bg-white sm:rounded-[2rem] shadow-2xl overflow-hidden relative">
+    <div className="app-viewport w-full flex items-center justify-center sm:p-6">
+      <div className="w-full sm:w-[375px] h-full sm:h-[720px] bg-white sm:rounded-[2rem] shadow-2xl overflow-hidden relative">
         <div className="w-full h-full relative p-7">
           <button
             type="button"

@@ -16,6 +16,22 @@ body {
   font-family: var(--font-noto-sans-jp), "Noto Sans JP", sans-serif;
 }
 
+/*
+ * 通常のブラウザではdvh（動的ビューポート高さ）が正しく画面に収まる一方、
+ * Android版ChromeのPWA（standalone）ではジェスチャーナビゲーションバー分が
+ * dvhの計算に反映されず縦にはみ出す既知の不具合があるため、standalone時のみ
+ * svh（常に画面に収まる最小のビューポート高さ）に切り替える。
+ */
+.app-viewport {
+  height: 100dvh;
+}
+
+@media (display-mode: standalone) {
+  .app-viewport {
+    height: 100svh;
+  }
+}
+
 @keyframes pop-in {
   from {
     opacity: 0;
