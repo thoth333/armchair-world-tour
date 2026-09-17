@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { countryData, type CountryCode } from "@/lib/countryData";
 
 interface HistoryDrawerProps {
@@ -20,6 +21,18 @@ export function HistoryDrawer({
   onReset,
 }: HistoryDrawerProps) {
   const showPending = !!pendingCode && pendingCode !== history[history.length - 1];
+  const [confirmingReset, setConfirmingReset] = useState(false);
+
+  // メニューを閉じるときは、次に開いたときに確認表示が残らないようクリアする。
+  function handleClose() {
+    setConfirmingReset(false);
+    onClose();
+  }
+
+  function handleConfirmReset() {
+    setConfirmingReset(false);
+    onReset();
+  }
 
   return (
     <div
@@ -34,7 +47,7 @@ export function HistoryDrawer({
         aria-label="メニューを閉じる"
         tabIndex={open ? 0 : -1}
         className="absolute inset-0 bg-black/40"
-        onClick={onClose}
+        onClick={handleClose}
       />
 
       <div
@@ -46,7 +59,7 @@ export function HistoryDrawer({
         <div className="flex items-center justify-between mb-8">
           <button
             type="button"
-            onClick={onClose}
+            onClick={handleClose}
             aria-label="閉じる"
             className="text-black -m-3 p-3 select-none"
           >
@@ -162,13 +175,45 @@ export function HistoryDrawer({
         <div className="pt-6 mt-6 border-t border-neutral-100">
           <button
             type="button"
-            onClick={onReset}
+            onClick={() => setConfirmingReset(true)}
             className="text-neutral-400 text-xs tracking-wide underline decoration-neutral-200 underline-offset-4"
           >
             最初からやり直す
           </button>
         </div>
       </div>
+
+      {confirmingReset && (
+        <div className="absolute inset-0 flex items-center justify-center px-10">
+          <button
+            type="button"
+            aria-label="キャンセル"
+            className="absolute inset-0 bg-black/15"
+            onClick={() => setConfirmingReset(false)}
+          />
+          <div className="relative bg-white rounded-xl shadow-lg px-8 py-8 text-center w-full">
+            <p className="text-black text-base font-bold mb-6">
+              本当に最初からやり直しますか？
+            </p>
+            <div className="flex gap-3">
+              <button
+                type="button"
+                onClick={() => setConfirmingReset(false)}
+                className="flex-1 text-neutral-500 text-sm border border-neutral-200 rounded-md py-2.5"
+              >
+                キャンセル
+              </button>
+              <button
+                type="button"
+                onClick={handleConfirmReset}
+                className="flex-1 text-white text-sm font-medium bg-red-500 rounded-md py-2.5"
+              >
+                やり直す
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
