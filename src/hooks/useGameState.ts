@@ -32,14 +32,15 @@ export function useGameState() {
 
   // ポップアップをEnterキーやクリックで即座に閉じるための処理。
   // タイマーによる自動進行と同じ結果になるよう、履歴への追加を前倒しで行う。
+  // 注: setPopupの関数形更新の中でsetHistoryを呼ぶと、React StrictModeが
+  // 純粋性チェックのため更新関数を2回呼び出し、履歴が二重に追加されてしまう。
+  // そのため、popupはstateをそのままクロージャで参照する。
   const dismissPopup = useCallback(() => {
+    if (!popup) return;
     clearPopupTimeout();
-    setPopup((current) => {
-      if (!current) return null;
-      setHistory((prev) => [...prev, current.toCode]);
-      return null;
-    });
-  }, [clearPopupTimeout]);
+    setHistory((prev) => [...prev, popup.toCode]);
+    setPopup(null);
+  }, [popup, clearPopupTimeout]);
 
   const submitCountry = useCallback(
     (rawInput: string): boolean => {
