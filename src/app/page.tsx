@@ -54,7 +54,7 @@ export default function Home() {
 
   const currentCode = history[history.length - 1] ?? null;
   const currentName = currentCode ? countryData[currentCode].name : "　";
-  const ordinal = history.length + 1;
+  const ordinal = Math.max(history.length, 1);
   const destinationLabel = history.length === 0 ? "最初の国" : "次の目的地";
   const pendingCode = inputValue.trim() ? matchCountry(inputValue) : null;
 
