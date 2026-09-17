@@ -191,7 +191,7 @@ export function HistoryDrawer({
             className="absolute inset-0 bg-black/15"
             onClick={() => setConfirmingReset(false)}
           />
-          <div className="relative bg-white rounded-xl shadow-lg px-8 py-8 text-center w-full">
+          <div className="relative bg-white rounded-xl shadow-xs px-8 py-8 text-center w-full">
             <p className="text-black text-base font-bold mb-6">
               本当に最初からやり直しますか？
             </p>

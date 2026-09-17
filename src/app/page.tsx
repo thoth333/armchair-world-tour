@@ -53,7 +53,7 @@ export default function Home() {
   }, [popup, dismissPopup]);
 
   const currentCode = history[history.length - 1] ?? null;
-  const currentName = currentCode ? countryData[currentCode].name : "スタート";
+  const currentName = currentCode ? countryData[currentCode].name : "　";
   const ordinal = history.length + 1;
   const destinationLabel = history.length === 0 ? "最初の国" : "次の目的地";
   const pendingCode = inputValue.trim() ? matchCountry(inputValue) : null;
@@ -136,11 +136,11 @@ export default function Home() {
                 readOnly={!!popup}
                 value={inputValue}
                 onChange={handleChange}
-                placeholder=""
+                placeholder={history.length === 0 ? "国名" : ""}
                 aria-label={destinationLabel}
                 className={
-                  "w-full bg-transparent outline-none text-5xl font-bold tracking-tight " +
-                  (errorText ? "text-black" : "text-[#C99A2E] placeholder-neutral-300")
+                  "w-full bg-transparent outline-none text-5xl font-bold tracking-tight placeholder:text-5xl placeholder:font-medium " +
+                  (errorText ? "text-black" : "text-[#C99A2E] placeholder-neutral-400")
                 }
               />
             </form>
