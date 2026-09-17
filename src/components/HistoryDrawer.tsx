@@ -44,8 +44,13 @@ export function HistoryDrawer({
         }
       >
         <div className="flex items-center justify-between mb-8">
-          <button type="button" onClick={onClose} aria-label="閉じる" className="text-black">
-            <span className="text-2xl leading-none">×</span>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="閉じる"
+            className="text-black -m-3 p-3 select-none"
+          >
+            <span className="text-2xl leading-none select-none">×</span>
           </button>
           <button
             type="button"

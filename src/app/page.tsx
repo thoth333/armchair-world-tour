@@ -83,11 +83,13 @@ export default function Home() {
             type="button"
             onClick={() => setMenuOpen(true)}
             aria-label="メニューを開く"
-            className="absolute left-7 top-7 flex flex-col justify-center gap-1.5 w-8 h-8"
+            className="absolute left-7 top-7 -m-3 p-3"
           >
-            <span className="block h-0.5 w-6 bg-black" />
-            <span className="block h-0.5 w-6 bg-black" />
-            <span className="block h-0.5 w-6 bg-black" />
+            <div className="flex flex-col justify-center gap-1.5 w-8 h-8">
+              <span className="block h-0.5 w-6 bg-black" />
+              <span className="block h-0.5 w-6 bg-black" />
+              <span className="block h-0.5 w-6 bg-black" />
+            </div>
           </button>
 
           <div className="text-center mb-14 mt-1">
