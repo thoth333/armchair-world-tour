@@ -11,8 +11,9 @@ export interface PopupInfo {
   toCode: CountryCode;
 }
 
-// 「隣接していない」と「国名として認識できない」は同一のエラーとして扱う。
+// 「隣接していない」と「国名として認識できない」は、次にすべきことが違うので別のエラーにする。
 const INVALID_ERROR = "隣接していません";
+const NOT_FOUND_ERROR = "国名が見つかりません";
 const ALREADY_USED_ERROR = "その国はすでに使用されています";
 const POPUP_DURATION_MS = 1300;
 
@@ -63,7 +64,7 @@ export function useGameState(
       // 1か国目はチェックなしで無条件に受理する
       if (history.length === 0) {
         if (!toCode) {
-          setErrorText(INVALID_ERROR);
+          setErrorText(NOT_FOUND_ERROR);
           return false;
         }
         setHistory([toCode]);
@@ -72,7 +73,7 @@ export function useGameState(
       }
 
       if (!toCode) {
-        setErrorText(INVALID_ERROR);
+        setErrorText(NOT_FOUND_ERROR);
         return false;
       }
 
