@@ -30,7 +30,7 @@ export function SettingsScreen({
 }: SettingsScreenProps) {
   const defaults = defaultSettings();
   const isDefault = borderSettingDefs.every(
-    (s) => settings[s.id] === defaults[s.id]
+    (s) => settings[s.id] === defaults[s.id],
   );
 
   return (
@@ -43,15 +43,13 @@ export function SettingsScreen({
       className={
         "absolute inset-0 z-40 bg-white flex flex-col transition-transform duration-200 ease-out " +
         (open ? "translate-x-0" : "translate-x-full pointer-events-none")
-      }
-    >
+      }>
       <div className="relative flex items-center justify-center px-7 pt-7 pb-4">
         <button
           type="button"
           onClick={onClose}
           aria-label="戻る"
-          className="absolute left-7 top-7 -m-3 p-3 text-black select-none"
-        >
+          className="absolute left-7 top-7 -m-3 p-3 text-black select-none">
           <span className="text-2xl leading-none font-jp">←</span>
         </button>
         <h2 className="text-black text-base font-bold tracking-[0.2em] mt-1">
@@ -82,8 +80,7 @@ export function SettingsScreen({
                     className={
                       "text-sm font-medium leading-snug " +
                       (locked ? "text-neutral-400" : "text-black")
-                    }
-                  >
+                    }>
                     {s.label}
                   </span>
                   <button
@@ -97,8 +94,7 @@ export function SettingsScreen({
                     className={
                       "relative shrink-0 w-11 h-6 rounded-full transition-colors disabled:opacity-40 " +
                       (on ? "bg-emerald-600" : "bg-neutral-300")
-                    }
-                  >
+                    }>
                     <span
                       className={
                         "absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform " +
@@ -109,8 +105,7 @@ export function SettingsScreen({
                 </div>
                 <p
                   id={descId}
-                  className="text-neutral-400 text-xs leading-relaxed mt-1.5 pr-14"
-                >
+                  className="text-neutral-400 text-xs leading-relaxed mt-1.5 pr-14">
                   {s.description}
                 </p>
               </li>
@@ -123,8 +118,7 @@ export function SettingsScreen({
             type="button"
             onClick={onResetDefaults}
             disabled={locked || isDefault}
-            className="text-neutral-400 text-xs tracking-wide underline decoration-neutral-200 underline-offset-4 disabled:opacity-30 disabled:no-underline"
-          >
+            className="text-neutral-400 text-xs tracking-wide underline decoration-neutral-200 underline-offset-4 disabled:opacity-30 disabled:no-underline">
             初期設定に戻す
           </button>
         </div>
@@ -136,8 +130,7 @@ export function SettingsScreen({
           <div className="flex items-start justify-between gap-4">
             <span
               id="setting-label-correctPopup"
-              className="text-sm font-medium leading-snug text-black"
-            >
+              className="text-sm font-medium leading-snug text-black">
               「正解！」の表示
             </span>
             <button
@@ -150,8 +143,7 @@ export function SettingsScreen({
               className={
                 "relative shrink-0 w-11 h-6 rounded-full transition-colors " +
                 (showCorrectPopup ? "bg-emerald-600" : "bg-neutral-300")
-              }
-            >
+              }>
               <span
                 className={
                   "absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform " +
@@ -162,11 +154,15 @@ export function SettingsScreen({
           </div>
           <p
             id="setting-desc-correctPopup"
-            className="text-neutral-400 text-xs leading-relaxed mt-1.5 pr-14"
-          >
+            className="text-neutral-400 text-xs leading-relaxed mt-1.5 pr-14">
             隣接している国を答えたとき、「正解！」の表示を挟みます。オフにすると、すぐ次の国に進みます。
           </p>
         </div>
+
+        <div aria-hidden className="h-20" />
+        <p className="text-neutral-400 text-xs leading-relaxed py-2">
+          「隣接」は陸上の国境で直接接していることを指します。収録する国は外務省の「国・地域」の一覧を参考にしています。隣接する陸上国境を持たない国（日本含む）は収録していません。国旗の絵文字は端末やアプリによって見え方が異なります。特定の国や地域の主権・領有についての見解を示すものではありません。
+        </p>
       </div>
     </div>
   );
