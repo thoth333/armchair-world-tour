@@ -1,9 +1,10 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
-import type { CountryCode } from "@/lib/countryData";
-import { matchCountry } from "@/lib/matchCountry";
+import type { CountryCode, CountryMap } from "@/lib/countryData";
+import { matchCountry, type NameMap } from "@/lib/matchCountry";
 import { judgeMove } from "@/lib/judge";
+import { hiddenBorderReason, type BorderSettings } from "@/lib/borderOptions";
 
 export interface PopupInfo {
   fromCode: CountryCode;
@@ -15,9 +16,14 @@ const INVALID_ERROR = "隣接していません";
 const ALREADY_USED_ERROR = "その国はすでに使用されています";
 const POPUP_DURATION_MS = 1300;
 
-export function useGameState() {
+export function useGameState(
+  countries: CountryMap,
+  nameMap: NameMap,
+  settings: BorderSettings
+) {
   const [history, setHistory] = useState<CountryCode[]>([]);
   const [errorText, setErrorText] = useState<string | null>(null);
+  const [errorHint, setErrorHint] = useState<string | null>(null);
   const [popup, setPopup] = useState<PopupInfo | null>(null);
   const popupTimeoutRef = useRef<number | null>(null);
 
@@ -28,7 +34,10 @@ export function useGameState() {
     }
   }, []);
 
-  const clearError = useCallback(() => setErrorText(null), []);
+  const clearError = useCallback(() => {
+    setErrorText(null);
+    setErrorHint(null);
+  }, []);
 
   // ポップアップをEnterキーやクリックで即座に閉じるための処理。
   // タイマーによる自動進行と同じ結果になるよう、履歴への追加を前倒しで行う。
@@ -48,7 +57,7 @@ export function useGameState() {
       const trimmed = rawInput.trim();
       if (!trimmed) return false;
 
-      const toCode = matchCountry(trimmed);
+      const toCode = matchCountry(trimmed, nameMap);
 
       // 1か国目はチェックなしで無条件に受理する
       if (history.length === 0) {
@@ -67,7 +76,7 @@ export function useGameState() {
       }
 
       const fromCode = history[history.length - 1];
-      const result = judgeMove(fromCode, toCode, new Set(history));
+      const result = judgeMove(countries, fromCode, toCode, new Set(history));
 
       if (result === "ALREADY_USED") {
         setErrorText(ALREADY_USED_ERROR);
@@ -75,10 +84,17 @@ export function useGameState() {
       }
       if (result === "NOT_ADJACENT") {
         setErrorText(INVALID_ERROR);
+        const reason = hiddenBorderReason(settings, fromCode, toCode);
+        setErrorHint(
+          reason
+            ? `設定「${reason.label}」を${reason.turnOn ? "オン" : "オフ"}にすると隣接します${reason.via ? `（経由: ${reason.via}）` : ""}`
+            : null
+        );
         return false;
       }
 
       setErrorText(null);
+      setErrorHint(null);
       setPopup({ fromCode, toCode });
       clearPopupTimeout();
       popupTimeoutRef.current = window.setTimeout(() => {
@@ -88,13 +104,14 @@ export function useGameState() {
       }, POPUP_DURATION_MS);
       return true;
     },
-    [history, popup, clearPopupTimeout]
+    [history, popup, clearPopupTimeout, countries, nameMap, settings]
   );
 
   const undoLast = useCallback(() => {
     clearPopupTimeout();
     setHistory((prev) => prev.slice(0, -1));
     setErrorText(null);
+    setErrorHint(null);
     setPopup(null);
   }, [clearPopupTimeout]);
 
@@ -102,12 +119,14 @@ export function useGameState() {
     clearPopupTimeout();
     setHistory([]);
     setErrorText(null);
+    setErrorHint(null);
     setPopup(null);
   }, [clearPopupTimeout]);
 
   return {
     history,
     errorText,
+    errorHint,
     popup,
     submitCountry,
     clearError,

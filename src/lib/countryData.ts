@@ -10,8 +10,7 @@ export interface CountryInfo {
   borders: CountryCode[];
 }
 
-export const countryData: Record<CountryCode, CountryInfo> = rawData;
+export type CountryMap = Record<CountryCode, CountryInfo>;
 
-export function getCountry(code: CountryCode): CountryInfo | undefined {
-  return countryData[code];
-}
+/** 設定を適用する前のベースデータ（常にオンの国境だけを持つ） */
+export const baseCountryData: CountryMap = rawData;

@@ -1,16 +1,22 @@
 "use client";
 
-import { countryData, type CountryCode } from "@/lib/countryData";
+import type { CountryCode, CountryMap } from "@/lib/countryData";
 
 interface CorrectPopupProps {
+  countries: CountryMap;
   fromCode: CountryCode;
   toCode: CountryCode;
   onDismiss: () => void;
 }
 
-export function CorrectPopup({ fromCode, toCode, onDismiss }: CorrectPopupProps) {
-  const from = countryData[fromCode];
-  const to = countryData[toCode];
+export function CorrectPopup({
+  countries,
+  fromCode,
+  toCode,
+  onDismiss,
+}: CorrectPopupProps) {
+  const from = countries[fromCode];
+  const to = countries[toCode];
 
   return (
     <div className="absolute inset-0 z-30" onClick={onDismiss}>

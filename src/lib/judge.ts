@@ -1,4 +1,4 @@
-import { countryData, type CountryCode } from "@/lib/countryData";
+import type { CountryCode, CountryMap } from "@/lib/countryData";
 
 export type JudgeResult = "OK" | "NOT_ADJACENT" | "ALREADY_USED";
 
@@ -10,6 +10,7 @@ export type JudgeResult = "OK" | "NOT_ADJACENT" | "ALREADY_USED";
  * ここでは toCode は解決済みの国コードのみを受け取る。
  */
 export function judgeMove(
+  countries: CountryMap,
   fromCode: CountryCode,
   toCode: CountryCode,
   usedCodes: Set<CountryCode>
@@ -17,7 +18,7 @@ export function judgeMove(
   if (usedCodes.has(toCode)) {
     return "ALREADY_USED";
   }
-  const isAdjacent = countryData[fromCode]?.borders.includes(toCode) ?? false;
+  const isAdjacent = countries[fromCode]?.borders.includes(toCode) ?? false;
   if (!isAdjacent) {
     return "NOT_ADJACENT";
   }

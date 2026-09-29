@@ -1,25 +1,36 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { countryData } from "@/lib/countryData";
-import { matchCountry } from "@/lib/matchCountry";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { baseCountryData } from "@/lib/countryData";
+import { buildNameMap, matchCountry } from "@/lib/matchCountry";
+import { buildGameData } from "@/lib/borderOptions";
 import { useGameState } from "@/hooks/useGameState";
+import { useBorderSettings } from "@/hooks/useBorderSettings";
 import { HistoryDrawer } from "@/components/HistoryDrawer";
 import { CorrectPopup } from "@/components/CorrectPopup";
+import { SettingsScreen } from "@/components/SettingsScreen";
 
 export default function Home() {
+  const { settings, setSetting, resetSettings } = useBorderSettings();
+  const countries = useMemo(
+    () => buildGameData(baseCountryData, settings),
+    [settings]
+  );
+  const nameMap = useMemo(() => buildNameMap(countries), [countries]);
   const {
     history,
     errorText,
+    errorHint,
     popup,
     submitCountry,
     clearError,
     dismissPopup,
     undoLast,
     reset,
-  } = useGameState();
+  } = useGameState(countries, nameMap, settings);
   const [inputValue, setInputValue] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const prevHistoryLength = useRef(0);
 
@@ -53,14 +64,14 @@ export default function Home() {
   }, [popup, dismissPopup]);
 
   const currentCode = history[history.length - 1] ?? null;
-  const currentName = currentCode ? countryData[currentCode].name : "　";
+  const currentName = currentCode ? countries[currentCode].name : "　";
   const ordinal = Math.max(history.length, 1);
   const destinationLabel = history.length === 0 ? "最初の国" : "次の目的地";
-  const pendingCode = inputValue.trim() ? matchCountry(inputValue) : null;
+  const pendingCode = inputValue.trim() ? matchCountry(inputValue, nameMap) : null;
   const historySet = new Set(history);
   const isDeadEnd =
     currentCode !== null &&
-    countryData[currentCode].borders.every((code) => historySet.has(code));
+    countries[currentCode].borders.every((code) => historySet.has(code));
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -165,20 +176,37 @@ export default function Home() {
                 入力してください
               </p>
             ) : null}
+            {errorText && errorHint && (
+              <p className="text-neutral-500 text-xs leading-relaxed mt-2">
+                {errorHint}
+              </p>
+            )}
           </div>
         </div>
 
         <HistoryDrawer
+          countries={countries}
           open={menuOpen}
           history={history}
           pendingCode={pendingCode}
           onClose={() => setMenuOpen(false)}
           onUndo={handleUndo}
           onReset={handleReset}
+          onOpenSettings={() => setSettingsOpen(true)}
+        />
+
+        <SettingsScreen
+          open={settingsOpen}
+          settings={settings}
+          locked={history.length > 0}
+          onChange={setSetting}
+          onResetDefaults={resetSettings}
+          onClose={() => setSettingsOpen(false)}
         />
 
         {popup && (
           <CorrectPopup
+            countries={countries}
             fromCode={popup.fromCode}
             toCode={popup.toCode}
             onDismiss={dismissPopup}

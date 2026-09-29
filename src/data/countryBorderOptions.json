@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "note": "countryBorders.json は常にオンの国境だけを持つ。各設定のオン/オフに応じて、addCountries(国の追加)と addBorders(国境の追加)を適用する。国境は必ず両方向に追加される。",
+  "settings": [
+    {
+      "id": "overseasTerritories",
+      "label": "海外領土・海外県と島の国境を含める",
+      "description": "仏領ギアナ、ジブラルタル、サン・マルタン島、ハンス島の国境を追加します。",
+      "default": false,
+      "on": {
+        "addBorders": [
+          {
+            "a": "FR",
+            "b": "BR",
+            "via": "仏領ギアナ"
+          },
+          {
+            "a": "FR",
+            "b": "SR",
+            "via": "仏領ギアナ"
+          },
+          {
+            "a": "ES",
+            "b": "GB",
+            "via": "ジブラルタル"
+          },
+          {
+            "a": "FR",
+            "b": "NL",
+            "via": "サン・マルタン島"
+          },
+          {
+            "a": "DK",
+            "b": "CA",
+            "via": "ハンス島"
+          }
+        ]
+      },
+      "off": {}
+    },
+    {
+      "id": "exclavesUndisputed",
+      "label": "飛び地を含める(領有権に争いがないもの)",
+      "description": "カリーニングラード、カビンダ、ナヒチェバンを経由する国境を追加します。",
+      "default": true,
+      "on": {
+        "addBorders": [
+          {
+            "a": "RU",
+            "b": "PL",
+            "via": "カリーニングラード"
+          },
+          {
+            "a": "RU",
+            "b": "LT",
+            "via": "カリーニングラード"
+          },
+          {
+            "a": "AO",
+            "b": "CG",
+            "via": "カビンダ"
+          },
+          {
+            "a": "AZ",
+            "b": "TR",
+            "via": "ナヒチェバン"
+          }
+        ]
+      },
+      "off": {}
+    },
+    {
+      "id": "exclavesDisputed",
+      "label": "飛び地を含める(領有権に争いがあるもの)",
+      "description": "セウタ・メリリャの国境を追加します。",
+      "default": false,
+      "on": {
+        "addBorders": [
+          {
+            "a": "ES",
+            "b": "MA",
+            "via": "セウタ・メリリャ"
+          }
+        ]
+      },
+      "off": {}
+    },
+    {
+      "id": "westernSaharaIndependent",
+      "label": "西サハラを独立した地域として扱う",
+      "description": "オンにすると西サハラを追加します。オフにするとモロッコの一部として扱われます。",
+      "default": true,
+      "on": {
+        "addCountries": {
+          "EH": {
+            "name": "西サハラ",
+            "formalName": "西サハラ",
+            "aliases": [],
+            "flag": "🇪🇭",
+            "borders": []
+          }
+        },
+        "addBorders": [
+          {
+            "a": "EH",
+            "b": "MA"
+          },
+          {
+            "a": "EH",
+            "b": "DZ"
+          },
+          {
+            "a": "EH",
+            "b": "MR"
+          }
+        ]
+      },
+      "off": {
+        "addBorders": [
+          {
+            "a": "MA",
+            "b": "MR",
+            "via": "西サハラ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "palestine",
+      "label": "パレスチナを独立した地域として扱う",
+      "description": "オンにするとパレスチナを追加します。オフにするとパレスチナは国として扱われません。",
+      "default": false,
+      "on": {
+        "addCountries": {
+          "PS": {
+            "name": "パレスチナ",
+            "formalName": "パレスチナ国",
+            "aliases": [],
+            "flag": "🇵🇸",
+            "borders": []
+          }
+        },
+        "addBorders": [
+          {
+            "a": "PS",
+            "b": "IL"
+          },
+          {
+            "a": "PS",
+            "b": "EG"
+          },
+          {
+            "a": "PS",
+            "b": "JO"
+          }
+        ]
+      },
+      "off": {}
+    }
+  ]
+}

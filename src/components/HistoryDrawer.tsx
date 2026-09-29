@@ -1,24 +1,28 @@
 "use client";
 
 import { useState } from "react";
-import { countryData, type CountryCode } from "@/lib/countryData";
+import type { CountryCode, CountryMap } from "@/lib/countryData";
 
 interface HistoryDrawerProps {
+  countries: CountryMap;
   open: boolean;
   history: CountryCode[];
   pendingCode: CountryCode | null;
   onClose: () => void;
   onUndo: () => void;
   onReset: () => void;
+  onOpenSettings: () => void;
 }
 
 export function HistoryDrawer({
+  countries,
   open,
   history,
   pendingCode,
   onClose,
   onUndo,
   onReset,
+  onOpenSettings,
 }: HistoryDrawerProps) {
   const showPending = !!pendingCode && pendingCode !== history[history.length - 1];
   const [confirmingReset, setConfirmingReset] = useState(false);
@@ -90,7 +94,7 @@ export function HistoryDrawer({
             <div className="space-y-5">
               {history.map((code, index) => {
                 const isCurrent = index === history.length - 1;
-                const info = countryData[code];
+                const info = countries[code];
                 const isFirstRow = index === 0;
                 const isLastRow = !showPending && isCurrent;
                 const hasAbove = !isFirstRow;
@@ -160,10 +164,10 @@ export function HistoryDrawer({
                   </div>
                   <div className="flex-1 min-w-0 flex items-center justify-between gap-2">
                     <p className="text-emerald-600 text-lg font-bold truncate">
-                      {countryData[pendingCode]?.name}
+                      {countries[pendingCode]?.name}
                     </p>
                     <span className="text-lg shrink-0">
-                      {countryData[pendingCode]?.flag}
+                      {countries[pendingCode]?.flag}
                     </span>
                   </div>
                 </div>
@@ -172,13 +176,21 @@ export function HistoryDrawer({
           )}
         </div>
 
-        <div className="pt-6 mt-6 border-t border-neutral-100">
+        <div className="pt-6 mt-6 border-t border-neutral-100 flex items-center justify-between">
           <button
             type="button"
             onClick={() => setConfirmingReset(true)}
-            className="text-neutral-400 text-xs tracking-wide underline decoration-neutral-200 underline-offset-4"
+            disabled={history.length === 0}
+            className="text-neutral-400 text-xs tracking-wide underline decoration-neutral-200 underline-offset-4 disabled:opacity-30 disabled:no-underline"
           >
             最初からやり直す
+          </button>
+          <button
+            type="button"
+            onClick={onOpenSettings}
+            className="text-neutral-400 text-xs tracking-wide underline decoration-neutral-200 underline-offset-4"
+          >
+            設定
           </button>
         </div>
       </div>
