@@ -2,7 +2,12 @@
   "AD": {
     "name": "アンドラ",
     "formalName": "アンドラ公国",
-    "aliases": [],
+    "aliases": [
+      "Andorra",
+      "Principality of Andorra",
+      "あんどら",
+      "あんどらこうこく"
+    ],
     "flag": "🇦🇩",
     "borders": [
       "FR",
@@ -13,7 +18,11 @@
     "name": "アラブ首長国連邦",
     "formalName": "アラブ首長国連邦",
     "aliases": [
-      "UAE"
+      "UAE",
+      "United Arab Emirates",
+      "Emirates",
+      "U.A.E.",
+      "あらぶしゅちょうこくれんぽう"
     ],
     "flag": "🇦🇪",
     "borders": [
@@ -24,7 +33,16 @@
   "AF": {
     "name": "アフガニスタン",
     "formalName": "アフガニスタン・イスラム共和国",
-    "aliases": [],
+    "aliases": [
+      "アフガン",
+      "Afghanistan",
+      "Islamic Republic of Afghanistan",
+      "アフガニスタンイスラム共和国",
+      "あふがにすたん",
+      "あふがにすたん・いすらむきょうわこく",
+      "あふがにすたんいすらむきょうわこく",
+      "あふがん"
+    ],
     "flag": "🇦🇫",
     "borders": [
       "TM",
@@ -38,7 +56,12 @@
   "AL": {
     "name": "アルバニア",
     "formalName": "アルバニア共和国",
-    "aliases": [],
+    "aliases": [
+      "Albania",
+      "Republic of Albania",
+      "あるばにあ",
+      "あるばにあきょうわこく"
+    ],
     "flag": "🇦🇱",
     "borders": [
       "ME",
@@ -50,7 +73,12 @@
   "AM": {
     "name": "アルメニア",
     "formalName": "アルメニア共和国",
-    "aliases": [],
+    "aliases": [
+      "Armenia",
+      "Republic of Armenia",
+      "あるめにあ",
+      "あるめにあきょうわこく"
+    ],
     "flag": "🇦🇲",
     "borders": [
       "GE",
@@ -62,7 +90,12 @@
   "AO": {
     "name": "アンゴラ",
     "formalName": "アンゴラ共和国",
-    "aliases": [],
+    "aliases": [
+      "Angola",
+      "Republic of Angola",
+      "あんごら",
+      "あんごらきょうわこく"
+    ],
     "flag": "🇦🇴",
     "borders": [
       "CD",
@@ -73,7 +106,12 @@
   "AR": {
     "name": "アルゼンチン",
     "formalName": "アルゼンチン共和国",
-    "aliases": [],
+    "aliases": [
+      "Argentina",
+      "Argentine Republic",
+      "あるぜんちん",
+      "あるぜんちんきょうわこく"
+    ],
     "flag": "🇦🇷",
     "borders": [
       "CL",
@@ -86,7 +124,13 @@
   "AT": {
     "name": "オーストリア",
     "formalName": "オーストリア共和国",
-    "aliases": [],
+    "aliases": [
+      "墺太利",
+      "Austria",
+      "Republic of Austria",
+      "おーすとりあ",
+      "おーすとりあきょうわこく"
+    ],
     "flag": "🇦🇹",
     "borders": [
       "DE",
@@ -102,7 +146,12 @@
   "AZ": {
     "name": "アゼルバイジャン",
     "formalName": "アゼルバイジャン共和国",
-    "aliases": [],
+    "aliases": [
+      "Azerbaijan",
+      "Republic of Azerbaijan",
+      "あぜるばいじゃん",
+      "あぜるばいじゃんきょうわこく"
+    ],
     "flag": "🇦🇿",
     "borders": [
       "RU",
@@ -114,7 +163,22 @@
   "BA": {
     "name": "ボスニア・ヘルツェゴビナ",
     "formalName": "ボスニア・ヘルツェゴビナ",
-    "aliases": [],
+    "aliases": [
+      "ボスニア",
+      "ヘルツェゴビナ",
+      "ボスニア・ヘルツェゴヴィナ",
+      "ボスニアヘルツェゴビナ",
+      "Bosnia and Herzegovina",
+      "Bosnia-Herzegovina",
+      "Bosnia",
+      "Herzegovina",
+      "BiH",
+      "ボスニアヘルツェゴヴィナ",
+      "ぼすにあ・へるつぇごびな",
+      "ぼすにあへるつぇごびな",
+      "ぼすにあ",
+      "へるつぇごびな"
+    ],
     "flag": "🇧🇦",
     "borders": [
       "HR",
@@ -125,7 +189,12 @@
   "BD": {
     "name": "バングラデシュ",
     "formalName": "バングラデシュ人民共和国",
-    "aliases": [],
+    "aliases": [
+      "Bangladesh",
+      "People's Republic of Bangladesh",
+      "ばんぐらでしゅ",
+      "ばんぐらでしゅじんみんきょうわこく"
+    ],
     "flag": "🇧🇩",
     "borders": [
       "IN",
@@ -135,7 +204,13 @@
   "BE": {
     "name": "ベルギー",
     "formalName": "ベルギー王国",
-    "aliases": [],
+    "aliases": [
+      "白耳義",
+      "Belgium",
+      "Kingdom of Belgium",
+      "べるぎー",
+      "べるぎーおうこく"
+    ],
     "flag": "🇧🇪",
     "borders": [
       "NL",
@@ -147,7 +222,17 @@
   "BF": {
     "name": "ブルキナファソ",
     "formalName": "ブルキナファソ",
-    "aliases": [],
+    "aliases": [
+      "オートボルタ",
+      "旧オートボルタ",
+      "ブルキナ",
+      "Burkina Faso",
+      "Burkina",
+      "ぶるきなふぁそ",
+      "おーとぼるた",
+      "きゅうおーとぼるた",
+      "ぶるきな"
+    ],
     "flag": "🇧🇫",
     "borders": [
       "ML",
@@ -161,7 +246,12 @@
   "BG": {
     "name": "ブルガリア",
     "formalName": "ブルガリア共和国",
-    "aliases": [],
+    "aliases": [
+      "Bulgaria",
+      "Republic of Bulgaria",
+      "ぶるがりあ",
+      "ぶるがりあきょうわこく"
+    ],
     "flag": "🇧🇬",
     "borders": [
       "RO",
@@ -174,7 +264,12 @@
   "BI": {
     "name": "ブルンジ",
     "formalName": "ブルンジ共和国",
-    "aliases": [],
+    "aliases": [
+      "Burundi",
+      "Republic of Burundi",
+      "ぶるんじ",
+      "ぶるんじきょうわこく"
+    ],
     "flag": "🇧🇮",
     "borders": [
       "RW",
@@ -185,7 +280,19 @@
   "BJ": {
     "name": "ベナン",
     "formalName": "ベナン共和国",
-    "aliases": [],
+    "aliases": [
+      "ダホメ",
+      "旧ダホメ",
+      "ベニン",
+      "Benin",
+      "Republic of Benin",
+      "Dahomey",
+      "べなん",
+      "べなんきょうわこく",
+      "だほめ",
+      "きゅうだほめ",
+      "べにん"
+    ],
     "flag": "🇧🇯",
     "borders": [
       "TG",
@@ -197,7 +304,19 @@
   "BN": {
     "name": "ブルネイ",
     "formalName": "ブルネイ・ダルサラーム国",
-    "aliases": [],
+    "aliases": [
+      "ブルネイ・ダルサラーム",
+      "ブルネイダルサラーム",
+      "Brunei",
+      "Brunei Darussalam",
+      "Nation of Brunei",
+      "ブルネイダルサラーム国",
+      "ぶるねい",
+      "ぶるねい・だるさらーむこく",
+      "ぶるねいだるさらーむこく",
+      "ぶるねい・だるさらーむ",
+      "ぶるねいだるさらーむ"
+    ],
     "flag": "🇧🇳",
     "borders": [
       "MY"
@@ -206,7 +325,12 @@
   "BO": {
     "name": "ボリビア",
     "formalName": "ボリビア多民族国",
-    "aliases": [],
+    "aliases": [
+      "Bolivia",
+      "Plurinational State of Bolivia",
+      "ぼりびあ",
+      "ぼりびあたみんぞくこく"
+    ],
     "flag": "🇧🇴",
     "borders": [
       "PE",
@@ -219,7 +343,13 @@
   "BR": {
     "name": "ブラジル",
     "formalName": "ブラジル連邦共和国",
-    "aliases": [],
+    "aliases": [
+      "伯剌西爾",
+      "Brazil",
+      "Federative Republic of Brazil",
+      "ぶらじる",
+      "ぶらじるれんぽうきょうわこく"
+    ],
     "flag": "🇧🇷",
     "borders": [
       "SR",
@@ -236,7 +366,12 @@
   "BT": {
     "name": "ブータン",
     "formalName": "ブータン王国",
-    "aliases": [],
+    "aliases": [
+      "Bhutan",
+      "Kingdom of Bhutan",
+      "ぶーたん",
+      "ぶーたんおうこく"
+    ],
     "flag": "🇧🇹",
     "borders": [
       "CN",
@@ -246,7 +381,12 @@
   "BW": {
     "name": "ボツワナ",
     "formalName": "ボツワナ共和国",
-    "aliases": [],
+    "aliases": [
+      "Botswana",
+      "Republic of Botswana",
+      "ぼつわな",
+      "ぼつわなきょうわこく"
+    ],
     "flag": "🇧🇼",
     "borders": [
       "NA",
@@ -259,7 +399,17 @@
     "name": "ベラルーシ",
     "formalName": "ベラルーシ共和国",
     "aliases": [
-      "白ロシア"
+      "白ロシア",
+      "ベロルシア",
+      "Belarus",
+      "Republic of Belarus",
+      "Byelorussia",
+      "Belorussia",
+      "White Russia",
+      "べらるーし",
+      "べらるーしきょうわこく",
+      "しろろしあ",
+      "べろるしあ"
     ],
     "flag": "🇧🇾",
     "borders": [
@@ -273,7 +423,10 @@
   "BZ": {
     "name": "ベリーズ",
     "formalName": "ベリーズ",
-    "aliases": [],
+    "aliases": [
+      "Belize",
+      "べりーず"
+    ],
     "flag": "🇧🇿",
     "borders": [
       "MX",
@@ -283,7 +436,11 @@
   "CA": {
     "name": "カナダ",
     "formalName": "カナダ",
-    "aliases": [],
+    "aliases": [
+      "加奈陀",
+      "Canada",
+      "かなだ"
+    ],
     "flag": "🇨🇦",
     "borders": [
       "US"
@@ -294,7 +451,25 @@
     "formalName": "コンゴ民主共和国",
     "aliases": [
       "コンゴ・キンシャサ",
-      "旧ザイール"
+      "旧ザイール",
+      "ザイール",
+      "民主コンゴ",
+      "コンゴ民主",
+      "Democratic Republic of the Congo",
+      "DR Congo",
+      "DRC",
+      "DROC",
+      "Congo-Kinshasa",
+      "Congo Kinshasa",
+      "Zaire",
+      "コンゴキンシャサ",
+      "こんごみんしゅきょうわこく",
+      "こんご・きんしゃさ",
+      "こんごきんしゃさ",
+      "きゅうざいーる",
+      "ざいーる",
+      "みんしゅこんご",
+      "こんごみんしゅ"
     ],
     "flag": "🇨🇩",
     "borders": [
@@ -312,7 +487,12 @@
   "CF": {
     "name": "中央アフリカ",
     "formalName": "中央アフリカ共和国",
-    "aliases": [],
+    "aliases": [
+      "Central African Republic",
+      "CAR",
+      "ちゅうおうあふりか",
+      "ちゅうおうあふりかきょうわこく"
+    ],
     "flag": "🇨🇫",
     "borders": [
       "TD",
@@ -327,7 +507,17 @@
     "name": "コンゴ共和国",
     "formalName": "コンゴ共和国",
     "aliases": [
-      "コンゴ・ブラザヴィル"
+      "コンゴ・ブラザヴィル",
+      "コンゴ・ブラザビル",
+      "コンゴブラザヴィル",
+      "Republic of the Congo",
+      "Congo Republic",
+      "Congo-Brazzaville",
+      "Congo Brazzaville",
+      "コンゴブラザビル",
+      "こんごきょうわこく",
+      "こんご・ぶらざびる",
+      "こんごぶらざびる"
     ],
     "flag": "🇨🇬",
     "borders": [
@@ -341,7 +531,12 @@
     "name": "スイス",
     "formalName": "スイス連邦",
     "aliases": [
-      "瑞西"
+      "瑞西",
+      "Switzerland",
+      "Swiss Confederation",
+      "Swiss",
+      "すいす",
+      "すいすれんぽう"
     ],
     "flag": "🇨🇭",
     "borders": [
@@ -356,7 +551,17 @@
     "name": "コートジボワール",
     "formalName": "コートジボワール共和国",
     "aliases": [
-      "象牙海岸"
+      "象牙海岸",
+      "コートジボアール",
+      "コートジヴォワール",
+      "Ivory Coast",
+      "Côte d'Ivoire",
+      "Cote d'Ivoire",
+      "Republic of Côte d'Ivoire",
+      "こーとじぼわーる",
+      "こーとじぼわーるきょうわこく",
+      "ぞうげかいがん",
+      "こーとじぼあーる"
     ],
     "flag": "🇨🇮",
     "borders": [
@@ -370,7 +575,13 @@
   "CL": {
     "name": "チリ",
     "formalName": "チリ共和国",
-    "aliases": [],
+    "aliases": [
+      "智利",
+      "Chile",
+      "Republic of Chile",
+      "ちり",
+      "ちりきょうわこく"
+    ],
     "flag": "🇨🇱",
     "borders": [
       "PE",
@@ -381,7 +592,12 @@
   "CM": {
     "name": "カメルーン",
     "formalName": "カメルーン共和国",
-    "aliases": [],
+    "aliases": [
+      "Cameroon",
+      "Republic of Cameroon",
+      "かめるーん",
+      "かめるーんきょうわこく"
+    ],
     "flag": "🇨🇲",
     "borders": [
       "NG",
@@ -396,7 +612,17 @@
     "name": "中華人民共和国",
     "formalName": "中華人民共和国",
     "aliases": [
-      "中国"
+      "中国",
+      "チャイナ",
+      "中華",
+      "China",
+      "People's Republic of China",
+      "PRC",
+      "Mainland China",
+      "ちゅうかじんみんきょうわこく",
+      "ちゅうごく",
+      "ちゃいな",
+      "ちゅうか"
     ],
     "flag": "🇨🇳",
     "borders": [
@@ -419,7 +645,12 @@
   "CO": {
     "name": "コロンビア",
     "formalName": "コロンビア共和国",
-    "aliases": [],
+    "aliases": [
+      "Colombia",
+      "Republic of Colombia",
+      "ころんびあ",
+      "ころんびあきょうわこく"
+    ],
     "flag": "🇨🇴",
     "borders": [
       "PA",
@@ -432,7 +663,12 @@
   "CR": {
     "name": "コスタリカ",
     "formalName": "コスタリカ共和国",
-    "aliases": [],
+    "aliases": [
+      "Costa Rica",
+      "Republic of Costa Rica",
+      "こすたりか",
+      "こすたりかきょうわこく"
+    ],
     "flag": "🇨🇷",
     "borders": [
       "NI",
@@ -442,7 +678,13 @@
   "CZ": {
     "name": "チェコ",
     "formalName": "チェコ共和国",
-    "aliases": [],
+    "aliases": [
+      "Czech Republic",
+      "Czechia",
+      "Czech",
+      "ちぇこ",
+      "ちぇこきょうわこく"
+    ],
     "flag": "🇨🇿",
     "borders": [
       "DE",
@@ -455,7 +697,16 @@
     "name": "ドイツ",
     "formalName": "ドイツ連邦共和国",
     "aliases": [
-      "独国"
+      "独国",
+      "独逸",
+      "ドイチュラント",
+      "Germany",
+      "Federal Republic of Germany",
+      "Deutschland",
+      "どいつ",
+      "どいつれんぽうきょうわこく",
+      "どっこく",
+      "どいちゅらんと"
     ],
     "flag": "🇩🇪",
     "borders": [
@@ -473,7 +724,12 @@
   "DJ": {
     "name": "ジブチ",
     "formalName": "ジブチ共和国",
-    "aliases": [],
+    "aliases": [
+      "Djibouti",
+      "Republic of Djibouti",
+      "じぶち",
+      "じぶちきょうわこく"
+    ],
     "flag": "🇩🇯",
     "borders": [
       "ER",
@@ -484,7 +740,13 @@
   "DK": {
     "name": "デンマーク",
     "formalName": "デンマーク王国",
-    "aliases": [],
+    "aliases": [
+      "丁抹",
+      "Denmark",
+      "Kingdom of Denmark",
+      "でんまーく",
+      "でんまーくおうこく"
+    ],
     "flag": "🇩🇰",
     "borders": [
       "DE"
@@ -493,7 +755,12 @@
   "DO": {
     "name": "ドミニカ共和国",
     "formalName": "ドミニカ共和国",
-    "aliases": [],
+    "aliases": [
+      "ドミニカ",
+      "Dominican Republic",
+      "どみにかきょうわこく",
+      "どみにか"
+    ],
     "flag": "🇩🇴",
     "borders": [
       "HT"
@@ -502,7 +769,12 @@
   "DZ": {
     "name": "アルジェリア",
     "formalName": "アルジェリア民主人民共和国",
-    "aliases": [],
+    "aliases": [
+      "Algeria",
+      "People's Democratic Republic of Algeria",
+      "あるじぇりあ",
+      "あるじぇりあみんしゅじんみんきょうわこく"
+    ],
     "flag": "🇩🇿",
     "borders": [
       "TN",
@@ -516,7 +788,12 @@
   "EC": {
     "name": "エクアドル",
     "formalName": "エクアドル共和国",
-    "aliases": [],
+    "aliases": [
+      "Ecuador",
+      "Republic of Ecuador",
+      "えくあどる",
+      "えくあどるきょうわこく"
+    ],
     "flag": "🇪🇨",
     "borders": [
       "CO",
@@ -526,7 +803,12 @@
   "EE": {
     "name": "エストニア",
     "formalName": "エストニア共和国",
-    "aliases": [],
+    "aliases": [
+      "Estonia",
+      "Republic of Estonia",
+      "えすとにあ",
+      "えすとにあきょうわこく"
+    ],
     "flag": "🇪🇪",
     "borders": [
       "LV",
@@ -536,7 +818,15 @@
   "EG": {
     "name": "エジプト",
     "formalName": "エジプト・アラブ共和国",
-    "aliases": [],
+    "aliases": [
+      "埃及",
+      "Egypt",
+      "Arab Republic of Egypt",
+      "エジプトアラブ共和国",
+      "えじぷと",
+      "えじぷと・あらぶきょうわこく",
+      "えじぷとあらぶきょうわこく"
+    ],
     "flag": "🇪🇬",
     "borders": [
       "LY",
@@ -547,7 +837,12 @@
   "ER": {
     "name": "エリトリア",
     "formalName": "エリトリア国",
-    "aliases": [],
+    "aliases": [
+      "Eritrea",
+      "State of Eritrea",
+      "えりとりあ",
+      "えりとりあこく"
+    ],
     "flag": "🇪🇷",
     "borders": [
       "SD",
@@ -559,7 +854,15 @@
     "name": "スペイン",
     "formalName": "スペイン王国",
     "aliases": [
-      "西国"
+      "西国",
+      "西班牙",
+      "エスパーニャ",
+      "Spain",
+      "Kingdom of Spain",
+      "すぺいん",
+      "すぺいんおうこく",
+      "せいこく",
+      "えすぱーにゃ"
     ],
     "flag": "🇪🇸",
     "borders": [
@@ -571,7 +874,12 @@
   "ET": {
     "name": "エチオピア",
     "formalName": "エチオピア連邦民主共和国",
-    "aliases": [],
+    "aliases": [
+      "Ethiopia",
+      "Federal Democratic Republic of Ethiopia",
+      "えちおぴあ",
+      "えちおぴあれんぽうみんしゅきょうわこく"
+    ],
     "flag": "🇪🇹",
     "borders": [
       "ER",
@@ -585,7 +893,13 @@
   "FI": {
     "name": "フィンランド",
     "formalName": "フィンランド共和国",
-    "aliases": [],
+    "aliases": [
+      "芬蘭",
+      "Finland",
+      "Republic of Finland",
+      "ふぃんらんど",
+      "ふぃんらんどきょうわこく"
+    ],
     "flag": "🇫🇮",
     "borders": [
       "SE",
@@ -597,7 +911,13 @@
     "name": "フランス",
     "formalName": "フランス共和国",
     "aliases": [
-      "仏国"
+      "仏国",
+      "仏蘭西",
+      "France",
+      "French Republic",
+      "ふらんす",
+      "ふらんすきょうわこく",
+      "ふっこく"
     ],
     "flag": "🇫🇷",
     "borders": [
@@ -614,7 +934,12 @@
   "GA": {
     "name": "ガボン",
     "formalName": "ガボン共和国",
-    "aliases": [],
+    "aliases": [
+      "Gabon",
+      "Gabonese Republic",
+      "がぼん",
+      "がぼんきょうわこく"
+    ],
     "flag": "🇬🇦",
     "borders": [
       "GQ",
@@ -628,7 +953,24 @@
     "aliases": [
       "イギリス",
       "連合王国",
-      "UK"
+      "UK",
+      "ブリテン",
+      "グレートブリテン",
+      "英吉利",
+      "ユナイテッドキングダム",
+      "United Kingdom",
+      "U.K.",
+      "Great Britain",
+      "Britain",
+      "GB",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "えいこく",
+      "ぐれーとぶりてんおよびきたあいるらんどれんごうおうこく",
+      "いぎりす",
+      "れんごうおうこく",
+      "ぶりてん",
+      "ぐれーとぶりてん",
+      "ゆないてっどきんぐだむ"
     ],
     "flag": "🇬🇧",
     "borders": [
@@ -639,7 +981,13 @@
     "name": "ジョージア",
     "formalName": "ジョージア",
     "aliases": [
-      "旧グルジア"
+      "旧グルジア",
+      "グルジア",
+      "Georgia",
+      "Republic of Georgia",
+      "じょーじあ",
+      "きゅうぐるじあ",
+      "ぐるじあ"
     ],
     "flag": "🇬🇪",
     "borders": [
@@ -652,7 +1000,17 @@
   "GH": {
     "name": "ガーナ",
     "formalName": "ガーナ共和国",
-    "aliases": [],
+    "aliases": [
+      "ゴールドコースト",
+      "旧ゴールドコースト",
+      "Ghana",
+      "Republic of Ghana",
+      "Gold Coast",
+      "がーな",
+      "がーなきょうわこく",
+      "ごーるどこーすと",
+      "きゅうごーるどこーすと"
+    ],
     "flag": "🇬🇭",
     "borders": [
       "CI",
@@ -663,7 +1021,13 @@
   "GM": {
     "name": "ガンビア",
     "formalName": "ガンビア共和国",
-    "aliases": [],
+    "aliases": [
+      "Gambia",
+      "The Gambia",
+      "Republic of the Gambia",
+      "がんびあ",
+      "がんびあきょうわこく"
+    ],
     "flag": "🇬🇲",
     "borders": [
       "SN"
@@ -672,7 +1036,13 @@
   "GN": {
     "name": "ギニア",
     "formalName": "ギニア共和国",
-    "aliases": [],
+    "aliases": [
+      "Guinea",
+      "Republic of Guinea",
+      "Guinea-Conakry",
+      "ぎにあ",
+      "ぎにあきょうわこく"
+    ],
     "flag": "🇬🇳",
     "borders": [
       "GW",
@@ -686,7 +1056,12 @@
   "GQ": {
     "name": "赤道ギニア",
     "formalName": "赤道ギニア共和国",
-    "aliases": [],
+    "aliases": [
+      "Equatorial Guinea",
+      "Republic of Equatorial Guinea",
+      "せきどうぎにあ",
+      "せきどうぎにあきょうわこく"
+    ],
     "flag": "🇬🇶",
     "borders": [
       "CM",
@@ -696,7 +1071,15 @@
   "GR": {
     "name": "ギリシャ",
     "formalName": "ギリシャ共和国",
-    "aliases": [],
+    "aliases": [
+      "ギリシア",
+      "希臘",
+      "Greece",
+      "Hellenic Republic",
+      "ぎりしゃ",
+      "ぎりしゃきょうわこく",
+      "ぎりしあ"
+    ],
     "flag": "🇬🇷",
     "borders": [
       "AL",
@@ -708,7 +1091,12 @@
   "GT": {
     "name": "グアテマラ",
     "formalName": "グアテマラ共和国",
-    "aliases": [],
+    "aliases": [
+      "Guatemala",
+      "Republic of Guatemala",
+      "ぐあてまら",
+      "ぐあてまらきょうわこく"
+    ],
     "flag": "🇬🇹",
     "borders": [
       "MX",
@@ -720,7 +1108,17 @@
   "GW": {
     "name": "ギニアビサウ",
     "formalName": "ギニアビサウ共和国",
-    "aliases": [],
+    "aliases": [
+      "ギニア・ビサウ",
+      "ギニアビサオ",
+      "Guinea-Bissau",
+      "Guinea Bissau",
+      "Republic of Guinea-Bissau",
+      "ぎにあびさう",
+      "ぎにあびさうきょうわこく",
+      "ぎにあ・びさう",
+      "ぎにあびさお"
+    ],
     "flag": "🇬🇼",
     "borders": [
       "SN",
@@ -730,7 +1128,12 @@
   "GY": {
     "name": "ガイアナ",
     "formalName": "ガイアナ協同共和国",
-    "aliases": [],
+    "aliases": [
+      "Guyana",
+      "Co-operative Republic of Guyana",
+      "がいあな",
+      "がいあなきょうどうきょうわこく"
+    ],
     "flag": "🇬🇾",
     "borders": [
       "VE",
@@ -741,7 +1144,12 @@
   "HN": {
     "name": "ホンジュラス",
     "formalName": "ホンジュラス共和国",
-    "aliases": [],
+    "aliases": [
+      "Honduras",
+      "Republic of Honduras",
+      "ほんじゅらす",
+      "ほんじゅらすきょうわこく"
+    ],
     "flag": "🇭🇳",
     "borders": [
       "GT",
@@ -752,7 +1160,13 @@
   "HR": {
     "name": "クロアチア",
     "formalName": "クロアチア共和国",
-    "aliases": [],
+    "aliases": [
+      "Croatia",
+      "Republic of Croatia",
+      "Hrvatska",
+      "くろあちあ",
+      "くろあちあきょうわこく"
+    ],
     "flag": "🇭🇷",
     "borders": [
       "SI",
@@ -765,7 +1179,12 @@
   "HT": {
     "name": "ハイチ",
     "formalName": "ハイチ共和国",
-    "aliases": [],
+    "aliases": [
+      "Haiti",
+      "Republic of Haiti",
+      "はいち",
+      "はいちきょうわこく"
+    ],
     "flag": "🇭🇹",
     "borders": [
       "DO"
@@ -774,7 +1193,11 @@
   "HU": {
     "name": "ハンガリー",
     "formalName": "ハンガリー",
-    "aliases": [],
+    "aliases": [
+      "洪牙利",
+      "Hungary",
+      "はんがりー"
+    ],
     "flag": "🇭🇺",
     "borders": [
       "AT",
@@ -789,7 +1212,13 @@
   "ID": {
     "name": "インドネシア",
     "formalName": "インドネシア共和国",
-    "aliases": [],
+    "aliases": [
+      "印度尼西亜",
+      "Indonesia",
+      "Republic of Indonesia",
+      "いんどねしあ",
+      "いんどねしあきょうわこく"
+    ],
     "flag": "🇮🇩",
     "borders": [
       "MY",
@@ -800,7 +1229,15 @@
   "IE": {
     "name": "アイルランド",
     "formalName": "アイルランド",
-    "aliases": [],
+    "aliases": [
+      "アイルランド共和国",
+      "愛蘭",
+      "Ireland",
+      "Republic of Ireland",
+      "Eire",
+      "あいるらんど",
+      "あいるらんどきょうわこく"
+    ],
     "flag": "🇮🇪",
     "borders": [
       "GB"
@@ -809,7 +1246,13 @@
   "IL": {
     "name": "イスラエル",
     "formalName": "イスラエル国",
-    "aliases": [],
+    "aliases": [
+      "以色列",
+      "Israel",
+      "State of Israel",
+      "いすらえる",
+      "いすらえるこく"
+    ],
     "flag": "🇮🇱",
     "borders": [
       "LB",
@@ -821,7 +1264,15 @@
   "IN": {
     "name": "インド",
     "formalName": "インド",
-    "aliases": [],
+    "aliases": [
+      "印度",
+      "バーラト",
+      "India",
+      "Republic of India",
+      "Bharat",
+      "いんど",
+      "ばーらと"
+    ],
     "flag": "🇮🇳",
     "borders": [
       "PK",
@@ -835,7 +1286,12 @@
   "IQ": {
     "name": "イラク",
     "formalName": "イラク共和国",
-    "aliases": [],
+    "aliases": [
+      "Iraq",
+      "Republic of Iraq",
+      "いらく",
+      "いらくきょうわこく"
+    ],
     "flag": "🇮🇶",
     "borders": [
       "TR",
@@ -849,7 +1305,24 @@
   "IR": {
     "name": "イラン",
     "formalName": "イラン・イスラム共和国",
-    "aliases": [],
+    "aliases": [
+      "ペルシャ",
+      "旧ペルシャ",
+      "ペルシア",
+      "旧ペルシア",
+      "波斯",
+      "Iran",
+      "Islamic Republic of Iran",
+      "Persia",
+      "イランイスラム共和国",
+      "いらん",
+      "いらん・いすらむきょうわこく",
+      "いらんいすらむきょうわこく",
+      "ぺるしゃ",
+      "きゅうぺるしゃ",
+      "ぺるしあ",
+      "きゅうぺるしあ"
+    ],
     "flag": "🇮🇷",
     "borders": [
       "TR",
@@ -865,7 +1338,13 @@
     "name": "イタリア",
     "formalName": "イタリア共和国",
     "aliases": [
-      "伊国"
+      "伊国",
+      "伊太利",
+      "Italy",
+      "Italian Republic",
+      "いたりあ",
+      "いたりあきょうわこく",
+      "いこく"
     ],
     "flag": "🇮🇹",
     "borders": [
@@ -880,7 +1359,14 @@
   "JO": {
     "name": "ヨルダン",
     "formalName": "ヨルダン・ハシェミット王国",
-    "aliases": [],
+    "aliases": [
+      "Jordan",
+      "Hashemite Kingdom of Jordan",
+      "ヨルダンハシェミット王国",
+      "よるだん",
+      "よるだん・はしぇみっとおうこく",
+      "よるだんはしぇみっとおうこく"
+    ],
     "flag": "🇯🇴",
     "borders": [
       "SY",
@@ -892,7 +1378,12 @@
   "KE": {
     "name": "ケニア",
     "formalName": "ケニア共和国",
-    "aliases": [],
+    "aliases": [
+      "Kenya",
+      "Republic of Kenya",
+      "けにあ",
+      "けにあきょうわこく"
+    ],
     "flag": "🇰🇪",
     "borders": [
       "ET",
@@ -905,7 +1396,17 @@
   "KG": {
     "name": "キルギス",
     "formalName": "キルギス共和国",
-    "aliases": [],
+    "aliases": [
+      "キルギスタン",
+      "キルギズ",
+      "Kyrgyzstan",
+      "Kyrgyz Republic",
+      "Kirghizia",
+      "きるぎす",
+      "きるぎすきょうわこく",
+      "きるぎすたん",
+      "きるぎず"
+    ],
     "flag": "🇰🇬",
     "borders": [
       "KZ",
@@ -917,7 +1418,12 @@
   "KH": {
     "name": "カンボジア",
     "formalName": "カンボジア王国",
-    "aliases": [],
+    "aliases": [
+      "Cambodia",
+      "Kingdom of Cambodia",
+      "かんぼじあ",
+      "かんぼじあおうこく"
+    ],
     "flag": "🇰🇭",
     "borders": [
       "TH",
@@ -928,7 +1434,16 @@
   "KP": {
     "name": "北朝鮮",
     "formalName": "朝鮮民主主義人民共和国",
-    "aliases": [],
+    "aliases": [
+      "朝鮮",
+      "North Korea",
+      "DPRK",
+      "Democratic People's Republic of Korea",
+      "N. Korea",
+      "きたちょうせん",
+      "ちょうせんみんしゅしゅぎじんみんきょうわこく",
+      "ちょうせん"
+    ],
     "flag": "🇰🇵",
     "borders": [
       "CN",
@@ -940,7 +1455,13 @@
     "name": "大韓民国",
     "formalName": "大韓民国",
     "aliases": [
-      "韓国"
+      "韓国",
+      "South Korea",
+      "Republic of Korea",
+      "ROK",
+      "S. Korea",
+      "だいかんみんこく",
+      "かんこく"
     ],
     "flag": "🇰🇷",
     "borders": [
@@ -950,7 +1471,14 @@
   "KW": {
     "name": "クウェート",
     "formalName": "クウェート国",
-    "aliases": [],
+    "aliases": [
+      "クエート",
+      "Kuwait",
+      "State of Kuwait",
+      "くうぇーと",
+      "くうぇーとこく",
+      "くえーと"
+    ],
     "flag": "🇰🇼",
     "borders": [
       "IQ",
@@ -960,7 +1488,12 @@
   "KZ": {
     "name": "カザフスタン",
     "formalName": "カザフスタン共和国",
-    "aliases": [],
+    "aliases": [
+      "Kazakhstan",
+      "Republic of Kazakhstan",
+      "かざふすたん",
+      "かざふすたんきょうわこく"
+    ],
     "flag": "🇰🇿",
     "borders": [
       "RU",
@@ -973,7 +1506,14 @@
   "LA": {
     "name": "ラオス",
     "formalName": "ラオス人民民主共和国",
-    "aliases": [],
+    "aliases": [
+      "Laos",
+      "Lao",
+      "Lao People's Democratic Republic",
+      "Lao PDR",
+      "らおす",
+      "らおすじんみんみんしゅきょうわこく"
+    ],
     "flag": "🇱🇦",
     "borders": [
       "CN",
@@ -986,7 +1526,12 @@
   "LB": {
     "name": "レバノン",
     "formalName": "レバノン共和国",
-    "aliases": [],
+    "aliases": [
+      "Lebanon",
+      "Lebanese Republic",
+      "ればのん",
+      "ればのんきょうわこく"
+    ],
     "flag": "🇱🇧",
     "borders": [
       "SY",
@@ -996,7 +1541,12 @@
   "LI": {
     "name": "リヒテンシュタイン",
     "formalName": "リヒテンシュタイン公国",
-    "aliases": [],
+    "aliases": [
+      "Liechtenstein",
+      "Principality of Liechtenstein",
+      "りひてんしゅたいん",
+      "りひてんしゅたいんこうこく"
+    ],
     "flag": "🇱🇮",
     "borders": [
       "CH",
@@ -1006,7 +1556,12 @@
   "LR": {
     "name": "リベリア",
     "formalName": "リベリア共和国",
-    "aliases": [],
+    "aliases": [
+      "Liberia",
+      "Republic of Liberia",
+      "りべりあ",
+      "りべりあきょうわこく"
+    ],
     "flag": "🇱🇷",
     "borders": [
       "SL",
@@ -1017,7 +1572,12 @@
   "LS": {
     "name": "レソト",
     "formalName": "レソト王国",
-    "aliases": [],
+    "aliases": [
+      "Lesotho",
+      "Kingdom of Lesotho",
+      "れそと",
+      "れそとおうこく"
+    ],
     "flag": "🇱🇸",
     "borders": [
       "ZA"
@@ -1026,7 +1586,12 @@
   "LT": {
     "name": "リトアニア",
     "formalName": "リトアニア共和国",
-    "aliases": [],
+    "aliases": [
+      "Lithuania",
+      "Republic of Lithuania",
+      "りとあにあ",
+      "りとあにあきょうわこく"
+    ],
     "flag": "🇱🇹",
     "borders": [
       "LV",
@@ -1037,7 +1602,14 @@
   "LU": {
     "name": "ルクセンブルク",
     "formalName": "ルクセンブルク大公国",
-    "aliases": [],
+    "aliases": [
+      "ルクセンブルグ",
+      "Luxembourg",
+      "Grand Duchy of Luxembourg",
+      "るくせんぶるく",
+      "るくせんぶるくたいこうこく",
+      "るくせんぶるぐ"
+    ],
     "flag": "🇱🇺",
     "borders": [
       "BE",
@@ -1048,7 +1620,12 @@
   "LV": {
     "name": "ラトビア",
     "formalName": "ラトビア共和国",
-    "aliases": [],
+    "aliases": [
+      "Latvia",
+      "Republic of Latvia",
+      "らとびあ",
+      "らとびあきょうわこく"
+    ],
     "flag": "🇱🇻",
     "borders": [
       "EE",
@@ -1060,7 +1637,11 @@
   "LY": {
     "name": "リビア",
     "formalName": "リビア",
-    "aliases": [],
+    "aliases": [
+      "Libya",
+      "State of Libya",
+      "りびあ"
+    ],
     "flag": "🇱🇾",
     "borders": [
       "TN",
@@ -1074,7 +1655,12 @@
   "MA": {
     "name": "モロッコ",
     "formalName": "モロッコ王国",
-    "aliases": [],
+    "aliases": [
+      "Morocco",
+      "Kingdom of Morocco",
+      "もろっこ",
+      "もろっこおうこく"
+    ],
     "flag": "🇲🇦",
     "borders": [
       "DZ"
@@ -1083,7 +1669,12 @@
   "MC": {
     "name": "モナコ",
     "formalName": "モナコ公国",
-    "aliases": [],
+    "aliases": [
+      "Monaco",
+      "Principality of Monaco",
+      "もなこ",
+      "もなここうこく"
+    ],
     "flag": "🇲🇨",
     "borders": [
       "FR"
@@ -1092,7 +1683,16 @@
   "MD": {
     "name": "モルドバ",
     "formalName": "モルドバ共和国",
-    "aliases": [],
+    "aliases": [
+      "モルドヴァ",
+      "モルダビア",
+      "Moldova",
+      "Republic of Moldova",
+      "Moldavia",
+      "もるどば",
+      "もるどばきょうわこく",
+      "もるだびあ"
+    ],
     "flag": "🇲🇩",
     "borders": [
       "RO",
@@ -1102,7 +1702,10 @@
   "ME": {
     "name": "モンテネグロ",
     "formalName": "モンテネグロ",
-    "aliases": [],
+    "aliases": [
+      "Montenegro",
+      "もんてねぐろ"
+    ],
     "flag": "🇲🇪",
     "borders": [
       "HR",
@@ -1116,7 +1719,15 @@
     "name": "北マケドニア",
     "formalName": "北マケドニア共和国",
     "aliases": [
-      "旧マケドニア"
+      "旧マケドニア",
+      "マケドニア",
+      "North Macedonia",
+      "Republic of North Macedonia",
+      "Macedonia",
+      "きたまけどにあ",
+      "きたまけどにあきょうわこく",
+      "きゅうまけどにあ",
+      "まけどにあ"
     ],
     "flag": "🇲🇰",
     "borders": [
@@ -1130,7 +1741,12 @@
   "ML": {
     "name": "マリ",
     "formalName": "マリ共和国",
-    "aliases": [],
+    "aliases": [
+      "Mali",
+      "Republic of Mali",
+      "まり",
+      "まりきょうわこく"
+    ],
     "flag": "🇲🇱",
     "borders": [
       "DZ",
@@ -1146,7 +1762,16 @@
     "name": "ミャンマー",
     "formalName": "ミャンマー連邦共和国",
     "aliases": [
-      "旧ビルマ"
+      "旧ビルマ",
+      "ビルマ",
+      "緬甸",
+      "Myanmar",
+      "Burma",
+      "Republic of the Union of Myanmar",
+      "みゃんまー",
+      "みゃんまーれんぽうきょうわこく",
+      "きゅうびるま",
+      "びるま"
     ],
     "flag": "🇲🇲",
     "borders": [
@@ -1160,7 +1785,13 @@
   "MN": {
     "name": "モンゴル",
     "formalName": "モンゴル国",
-    "aliases": [],
+    "aliases": [
+      "蒙古",
+      "Mongolia",
+      "もんごる",
+      "もんごるこく",
+      "もうこ"
+    ],
     "flag": "🇲🇳",
     "borders": [
       "RU",
@@ -1170,7 +1801,14 @@
   "MR": {
     "name": "モーリタニア",
     "formalName": "モーリタニア・イスラム共和国",
-    "aliases": [],
+    "aliases": [
+      "Mauritania",
+      "Islamic Republic of Mauritania",
+      "モーリタニアイスラム共和国",
+      "もーりたにあ",
+      "もーりたにあ・いすらむきょうわこく",
+      "もーりたにあいすらむきょうわこく"
+    ],
     "flag": "🇲🇷",
     "borders": [
       "DZ",
@@ -1181,7 +1819,14 @@
   "MW": {
     "name": "マラウイ",
     "formalName": "マラウイ共和国",
-    "aliases": [],
+    "aliases": [
+      "マラウィ",
+      "Malawi",
+      "Republic of Malawi",
+      "まらうい",
+      "まらういきょうわこく",
+      "まらうぃ"
+    ],
     "flag": "🇲🇼",
     "borders": [
       "TZ",
@@ -1192,7 +1837,13 @@
   "MX": {
     "name": "メキシコ",
     "formalName": "メキシコ合衆国",
-    "aliases": [],
+    "aliases": [
+      "墨西哥",
+      "Mexico",
+      "United Mexican States",
+      "めきしこ",
+      "めきしこがっしゅうこく"
+    ],
     "flag": "🇲🇽",
     "borders": [
       "US",
@@ -1203,7 +1854,10 @@
   "MY": {
     "name": "マレーシア",
     "formalName": "マレーシア",
-    "aliases": [],
+    "aliases": [
+      "Malaysia",
+      "まれーしあ"
+    ],
     "flag": "🇲🇾",
     "borders": [
       "TH",
@@ -1214,7 +1868,12 @@
   "MZ": {
     "name": "モザンビーク",
     "formalName": "モザンビーク共和国",
-    "aliases": [],
+    "aliases": [
+      "Mozambique",
+      "Republic of Mozambique",
+      "もざんびーく",
+      "もざんびーくきょうわこく"
+    ],
     "flag": "🇲🇿",
     "borders": [
       "TZ",
@@ -1228,7 +1887,12 @@
   "NA": {
     "name": "ナミビア",
     "formalName": "ナミビア共和国",
-    "aliases": [],
+    "aliases": [
+      "Namibia",
+      "Republic of Namibia",
+      "なみびあ",
+      "なみびあきょうわこく"
+    ],
     "flag": "🇳🇦",
     "borders": [
       "AO",
@@ -1240,7 +1904,12 @@
   "NE": {
     "name": "ニジェール",
     "formalName": "ニジェール共和国",
-    "aliases": [],
+    "aliases": [
+      "Niger",
+      "Republic of the Niger",
+      "にじぇーる",
+      "にじぇーるきょうわこく"
+    ],
     "flag": "🇳🇪",
     "borders": [
       "DZ",
@@ -1255,7 +1924,12 @@
   "NG": {
     "name": "ナイジェリア",
     "formalName": "ナイジェリア連邦共和国",
-    "aliases": [],
+    "aliases": [
+      "Nigeria",
+      "Federal Republic of Nigeria",
+      "ないじぇりあ",
+      "ないじぇりあれんぽうきょうわこく"
+    ],
     "flag": "🇳🇬",
     "borders": [
       "BJ",
@@ -1267,7 +1941,12 @@
   "NI": {
     "name": "ニカラグア",
     "formalName": "ニカラグア共和国",
-    "aliases": [],
+    "aliases": [
+      "Nicaragua",
+      "Republic of Nicaragua",
+      "にからぐあ",
+      "にからぐあきょうわこく"
+    ],
     "flag": "🇳🇮",
     "borders": [
       "HN",
@@ -1279,7 +1958,20 @@
     "formalName": "オランダ王国",
     "aliases": [
       "ネーデルラント",
-      "蘭国"
+      "蘭国",
+      "ホランド",
+      "和蘭",
+      "ネーデルランド",
+      "Netherlands",
+      "The Netherlands",
+      "Kingdom of the Netherlands",
+      "Holland",
+      "おらんだ",
+      "おらんだおうこく",
+      "ねーでるらんと",
+      "らんこく",
+      "ほらんど",
+      "ねーでるらんど"
     ],
     "flag": "🇳🇱",
     "borders": [
@@ -1290,7 +1982,13 @@
   "NO": {
     "name": "ノルウェー",
     "formalName": "ノルウェー王国",
-    "aliases": [],
+    "aliases": [
+      "諾威",
+      "Norway",
+      "Kingdom of Norway",
+      "のるうぇー",
+      "のるうぇーおうこく"
+    ],
     "flag": "🇳🇴",
     "borders": [
       "SE",
@@ -1301,7 +1999,11 @@
   "NP": {
     "name": "ネパール",
     "formalName": "ネパール",
-    "aliases": [],
+    "aliases": [
+      "Nepal",
+      "Federal Democratic Republic of Nepal",
+      "ねぱーる"
+    ],
     "flag": "🇳🇵",
     "borders": [
       "CN",
@@ -1311,7 +2013,12 @@
   "OM": {
     "name": "オマーン",
     "formalName": "オマーン国",
-    "aliases": [],
+    "aliases": [
+      "Oman",
+      "Sultanate of Oman",
+      "おまーん",
+      "おまーんこく"
+    ],
     "flag": "🇴🇲",
     "borders": [
       "SA",
@@ -1322,7 +2029,12 @@
   "PA": {
     "name": "パナマ",
     "formalName": "パナマ共和国",
-    "aliases": [],
+    "aliases": [
+      "Panama",
+      "Republic of Panama",
+      "ぱなま",
+      "ぱなまきょうわこく"
+    ],
     "flag": "🇵🇦",
     "borders": [
       "CR",
@@ -1332,7 +2044,13 @@
   "PE": {
     "name": "ペルー",
     "formalName": "ペルー共和国",
-    "aliases": [],
+    "aliases": [
+      "秘露",
+      "Peru",
+      "Republic of Peru",
+      "ぺるー",
+      "ぺるーきょうわこく"
+    ],
     "flag": "🇵🇪",
     "borders": [
       "EC",
@@ -1345,7 +2063,15 @@
   "PG": {
     "name": "パプアニューギニア",
     "formalName": "パプアニューギニア独立国",
-    "aliases": [],
+    "aliases": [
+      "パプア・ニューギニア",
+      "Papua New Guinea",
+      "Independent State of Papua New Guinea",
+      "PNG",
+      "ぱぷあにゅーぎにあ",
+      "ぱぷあにゅーぎにあどくりつこく",
+      "ぱぷあ・にゅーぎにあ"
+    ],
     "flag": "🇵🇬",
     "borders": [
       "ID"
@@ -1354,7 +2080,14 @@
   "PK": {
     "name": "パキスタン",
     "formalName": "パキスタン・イスラム共和国",
-    "aliases": [],
+    "aliases": [
+      "Pakistan",
+      "Islamic Republic of Pakistan",
+      "パキスタンイスラム共和国",
+      "ぱきすたん",
+      "ぱきすたん・いすらむきょうわこく",
+      "ぱきすたんいすらむきょうわこく"
+    ],
     "flag": "🇵🇰",
     "borders": [
       "IR",
@@ -1366,7 +2099,13 @@
   "PL": {
     "name": "ポーランド",
     "formalName": "ポーランド共和国",
-    "aliases": [],
+    "aliases": [
+      "波蘭",
+      "Poland",
+      "Republic of Poland",
+      "ぽーらんど",
+      "ぽーらんどきょうわこく"
+    ],
     "flag": "🇵🇱",
     "borders": [
       "DE",
@@ -1380,7 +2119,13 @@
   "PT": {
     "name": "ポルトガル",
     "formalName": "ポルトガル共和国",
-    "aliases": [],
+    "aliases": [
+      "葡萄牙",
+      "Portugal",
+      "Portuguese Republic",
+      "ぽるとがる",
+      "ぽるとがるきょうわこく"
+    ],
     "flag": "🇵🇹",
     "borders": [
       "ES"
@@ -1389,7 +2134,12 @@
   "PY": {
     "name": "パラグアイ",
     "formalName": "パラグアイ共和国",
-    "aliases": [],
+    "aliases": [
+      "Paraguay",
+      "Republic of Paraguay",
+      "ぱらぐあい",
+      "ぱらぐあいきょうわこく"
+    ],
     "flag": "🇵🇾",
     "borders": [
       "BO",
@@ -1400,7 +2150,12 @@
   "QA": {
     "name": "カタール",
     "formalName": "カタール国",
-    "aliases": [],
+    "aliases": [
+      "Qatar",
+      "State of Qatar",
+      "かたーる",
+      "かたーるこく"
+    ],
     "flag": "🇶🇦",
     "borders": [
       "SA"
@@ -1409,7 +2164,10 @@
   "RO": {
     "name": "ルーマニア",
     "formalName": "ルーマニア",
-    "aliases": [],
+    "aliases": [
+      "Romania",
+      "るーまにあ"
+    ],
     "flag": "🇷🇴",
     "borders": [
       "HU",
@@ -1422,7 +2180,12 @@
   "RS": {
     "name": "セルビア",
     "formalName": "セルビア共和国",
-    "aliases": [],
+    "aliases": [
+      "Serbia",
+      "Republic of Serbia",
+      "せるびあ",
+      "せるびあきょうわこく"
+    ],
     "flag": "🇷🇸",
     "borders": [
       "HU",
@@ -1439,7 +2202,13 @@
     "name": "ロシア",
     "formalName": "ロシア連邦",
     "aliases": [
-      "露国"
+      "露国",
+      "露西亜",
+      "Russia",
+      "Russian Federation",
+      "ろしあ",
+      "ろしあれんぽう",
+      "ろこく"
     ],
     "flag": "🇷🇺",
     "borders": [
@@ -1460,7 +2229,12 @@
   "RW": {
     "name": "ルワンダ",
     "formalName": "ルワンダ共和国",
-    "aliases": [],
+    "aliases": [
+      "Rwanda",
+      "Republic of Rwanda",
+      "るわんだ",
+      "るわんだきょうわこく"
+    ],
     "flag": "🇷🇼",
     "borders": [
       "UG",
@@ -1472,7 +2246,15 @@
   "SA": {
     "name": "サウジアラビア",
     "formalName": "サウジアラビア王国",
-    "aliases": [],
+    "aliases": [
+      "サウジ",
+      "Saudi Arabia",
+      "Kingdom of Saudi Arabia",
+      "KSA",
+      "さうじあらびあ",
+      "さうじあらびあおうこく",
+      "さうじ"
+    ],
     "flag": "🇸🇦",
     "borders": [
       "JO",
@@ -1487,7 +2269,12 @@
   "SD": {
     "name": "スーダン",
     "formalName": "スーダン共和国",
-    "aliases": [],
+    "aliases": [
+      "Sudan",
+      "Republic of the Sudan",
+      "すーだん",
+      "すーだんきょうわこく"
+    ],
     "flag": "🇸🇩",
     "borders": [
       "EG",
@@ -1503,7 +2290,11 @@
     "name": "スウェーデン",
     "formalName": "スウェーデン王国",
     "aliases": [
-      "瑞典"
+      "瑞典",
+      "Sweden",
+      "Kingdom of Sweden",
+      "すうぇーでん",
+      "すうぇーでんおうこく"
     ],
     "flag": "🇸🇪",
     "borders": [
@@ -1514,7 +2305,13 @@
   "SI": {
     "name": "スロベニア",
     "formalName": "スロベニア共和国",
-    "aliases": [],
+    "aliases": [
+      "スロヴェニア",
+      "Slovenia",
+      "Republic of Slovenia",
+      "すろべにあ",
+      "すろべにあきょうわこく"
+    ],
     "flag": "🇸🇮",
     "borders": [
       "IT",
@@ -1526,7 +2323,13 @@
   "SK": {
     "name": "スロバキア",
     "formalName": "スロバキア共和国",
-    "aliases": [],
+    "aliases": [
+      "スロヴァキア",
+      "Slovakia",
+      "Slovak Republic",
+      "すろばきあ",
+      "すろばきあきょうわこく"
+    ],
     "flag": "🇸🇰",
     "borders": [
       "CZ",
@@ -1539,7 +2342,14 @@
   "SL": {
     "name": "シエラレオネ",
     "formalName": "シエラレオネ共和国",
-    "aliases": [],
+    "aliases": [
+      "シエラ・レオネ",
+      "Sierra Leone",
+      "Republic of Sierra Leone",
+      "しえられおね",
+      "しえられおねきょうわこく",
+      "しえら・れおね"
+    ],
     "flag": "🇸🇱",
     "borders": [
       "GN",
@@ -1549,7 +2359,14 @@
   "SM": {
     "name": "サンマリノ",
     "formalName": "サンマリノ共和国",
-    "aliases": [],
+    "aliases": [
+      "サン・マリノ",
+      "San Marino",
+      "Republic of San Marino",
+      "さんまりの",
+      "さんまりのきょうわこく",
+      "さん・まりの"
+    ],
     "flag": "🇸🇲",
     "borders": [
       "IT"
@@ -1558,7 +2375,12 @@
   "SN": {
     "name": "セネガル",
     "formalName": "セネガル共和国",
-    "aliases": [],
+    "aliases": [
+      "Senegal",
+      "Republic of Senegal",
+      "せねがる",
+      "せねがるきょうわこく"
+    ],
     "flag": "🇸🇳",
     "borders": [
       "MR",
@@ -1571,7 +2393,12 @@
   "SO": {
     "name": "ソマリア",
     "formalName": "ソマリア連邦共和国",
-    "aliases": [],
+    "aliases": [
+      "Somalia",
+      "Federal Republic of Somalia",
+      "そまりあ",
+      "そまりあれんぽうきょうわこく"
+    ],
     "flag": "🇸🇴",
     "borders": [
       "DJ",
@@ -1582,7 +2409,15 @@
   "SR": {
     "name": "スリナム",
     "formalName": "スリナム共和国",
-    "aliases": [],
+    "aliases": [
+      "スリナメ",
+      "Suriname",
+      "Surinam",
+      "Republic of Suriname",
+      "すりなむ",
+      "すりなむきょうわこく",
+      "すりなめ"
+    ],
     "flag": "🇸🇷",
     "borders": [
       "GY",
@@ -1592,7 +2427,12 @@
   "SS": {
     "name": "南スーダン",
     "formalName": "南スーダン共和国",
-    "aliases": [],
+    "aliases": [
+      "South Sudan",
+      "Republic of South Sudan",
+      "みなみすーだん",
+      "みなみすーだんきょうわこく"
+    ],
     "flag": "🇸🇸",
     "borders": [
       "SD",
@@ -1606,7 +2446,14 @@
   "SV": {
     "name": "エルサルバドル",
     "formalName": "エルサルバドル共和国",
-    "aliases": [],
+    "aliases": [
+      "エル・サルバドル",
+      "El Salvador",
+      "Republic of El Salvador",
+      "えるさるばどる",
+      "えるさるばどるきょうわこく",
+      "える・さるばどる"
+    ],
     "flag": "🇸🇻",
     "borders": [
       "GT",
@@ -1616,7 +2463,14 @@
   "SY": {
     "name": "シリア",
     "formalName": "シリア・アラブ共和国",
-    "aliases": [],
+    "aliases": [
+      "Syria",
+      "Syrian Arab Republic",
+      "シリアアラブ共和国",
+      "しりあ",
+      "しりあ・あらぶきょうわこく",
+      "しりああらぶきょうわこく"
+    ],
     "flag": "🇸🇾",
     "borders": [
       "TR",
@@ -1630,7 +2484,15 @@
     "name": "エスワティニ",
     "formalName": "エスワティニ王国",
     "aliases": [
-      "旧スワジランド"
+      "旧スワジランド",
+      "スワジランド",
+      "Eswatini",
+      "Kingdom of Eswatini",
+      "Swaziland",
+      "えすわてぃに",
+      "えすわてぃにおうこく",
+      "きゅうすわじらんど",
+      "すわじらんど"
     ],
     "flag": "🇸🇿",
     "borders": [
@@ -1641,7 +2503,12 @@
   "TD": {
     "name": "チャド",
     "formalName": "チャド共和国",
-    "aliases": [],
+    "aliases": [
+      "Chad",
+      "Republic of Chad",
+      "ちゃど",
+      "ちゃどきょうわこく"
+    ],
     "flag": "🇹🇩",
     "borders": [
       "LY",
@@ -1655,7 +2522,12 @@
   "TG": {
     "name": "トーゴ",
     "formalName": "トーゴ共和国",
-    "aliases": [],
+    "aliases": [
+      "Togo",
+      "Togolese Republic",
+      "とーご",
+      "とーごきょうわこく"
+    ],
     "flag": "🇹🇬",
     "borders": [
       "GH",
@@ -1666,7 +2538,20 @@
   "TH": {
     "name": "タイ",
     "formalName": "タイ王国",
-    "aliases": [],
+    "aliases": [
+      "シャム",
+      "旧シャム",
+      "泰国",
+      "暹羅",
+      "Thailand",
+      "Kingdom of Thailand",
+      "Siam",
+      "たい",
+      "たいおうこく",
+      "しゃむ",
+      "きゅうしゃむ",
+      "たいこく"
+    ],
     "flag": "🇹🇭",
     "borders": [
       "MM",
@@ -1678,7 +2563,12 @@
   "TJ": {
     "name": "タジキスタン",
     "formalName": "タジキスタン共和国",
-    "aliases": [],
+    "aliases": [
+      "Tajikistan",
+      "Republic of Tajikistan",
+      "たじきすたん",
+      "たじきすたんきょうわこく"
+    ],
     "flag": "🇹🇯",
     "borders": [
       "KG",
@@ -1690,7 +2580,20 @@
   "TL": {
     "name": "東ティモール",
     "formalName": "東ティモール民主共和国",
-    "aliases": [],
+    "aliases": [
+      "ティモールレステ",
+      "ティモール・レステ",
+      "東チモール",
+      "Timor-Leste",
+      "East Timor",
+      "Timor Leste",
+      "Democratic Republic of Timor-Leste",
+      "ひがしてぃもーる",
+      "ひがしてぃもーるみんしゅきょうわこく",
+      "てぃもーるれすて",
+      "てぃもーる・れすて",
+      "ひがしちもーる"
+    ],
     "flag": "🇹🇱",
     "borders": [
       "ID"
@@ -1699,7 +2602,10 @@
   "TM": {
     "name": "トルクメニスタン",
     "formalName": "トルクメニスタン",
-    "aliases": [],
+    "aliases": [
+      "Turkmenistan",
+      "とるくめにすたん"
+    ],
     "flag": "🇹🇲",
     "borders": [
       "KZ",
@@ -1711,7 +2617,12 @@
   "TN": {
     "name": "チュニジア",
     "formalName": "チュニジア共和国",
-    "aliases": [],
+    "aliases": [
+      "Tunisia",
+      "Republic of Tunisia",
+      "ちゅにじあ",
+      "ちゅにじあきょうわこく"
+    ],
     "flag": "🇹🇳",
     "borders": [
       "DZ",
@@ -1721,7 +2632,20 @@
   "TR": {
     "name": "トルコ",
     "formalName": "トルコ共和国",
-    "aliases": [],
+    "aliases": [
+      "トルキエ",
+      "テュルキエ",
+      "土耳古",
+      "Turkey",
+      "Türkiye",
+      "Turkiye",
+      "Republic of Türkiye",
+      "Republic of Turkey",
+      "とるこ",
+      "とるこきょうわこく",
+      "とるきえ",
+      "てゅるきえ"
+    ],
     "flag": "🇹🇷",
     "borders": [
       "GR",
@@ -1736,7 +2660,12 @@
   "TZ": {
     "name": "タンザニア",
     "formalName": "タンザニア連合共和国",
-    "aliases": [],
+    "aliases": [
+      "Tanzania",
+      "United Republic of Tanzania",
+      "たんざにあ",
+      "たんざにあれんごうきょうわこく"
+    ],
     "flag": "🇹🇿",
     "borders": [
       "KE",
@@ -1752,7 +2681,10 @@
   "UA": {
     "name": "ウクライナ",
     "formalName": "ウクライナ",
-    "aliases": [],
+    "aliases": [
+      "Ukraine",
+      "うくらいな"
+    ],
     "flag": "🇺🇦",
     "borders": [
       "BY",
@@ -1767,7 +2699,12 @@
   "UG": {
     "name": "ウガンダ",
     "formalName": "ウガンダ共和国",
-    "aliases": [],
+    "aliases": [
+      "Uganda",
+      "Republic of Uganda",
+      "うがんだ",
+      "うがんだきょうわこく"
+    ],
     "flag": "🇺🇬",
     "borders": [
       "SS",
@@ -1782,7 +2719,22 @@
     "formalName": "アメリカ合衆国",
     "aliases": [
       "米国",
-      "合衆国"
+      "合衆国",
+      "アメリカ",
+      "亜米利加",
+      "ユナイテッドステイツ",
+      "United States",
+      "United States of America",
+      "USA",
+      "US",
+      "U.S.",
+      "U.S.A.",
+      "America",
+      "あめりかがっしゅうこく",
+      "べいこく",
+      "がっしゅうこく",
+      "あめりか",
+      "ゆないてっどすていつ"
     ],
     "flag": "🇺🇸",
     "borders": [
@@ -1793,7 +2745,12 @@
   "UY": {
     "name": "ウルグアイ",
     "formalName": "ウルグアイ東方共和国",
-    "aliases": [],
+    "aliases": [
+      "Uruguay",
+      "Oriental Republic of Uruguay",
+      "うるぐあい",
+      "うるぐあいとうほうきょうわこく"
+    ],
     "flag": "🇺🇾",
     "borders": [
       "AR",
@@ -1803,7 +2760,12 @@
   "UZ": {
     "name": "ウズベキスタン",
     "formalName": "ウズベキスタン共和国",
-    "aliases": [],
+    "aliases": [
+      "Uzbekistan",
+      "Republic of Uzbekistan",
+      "うずべきすたん",
+      "うずべきすたんきょうわこく"
+    ],
     "flag": "🇺🇿",
     "borders": [
       "KZ",
@@ -1816,7 +2778,16 @@
   "VA": {
     "name": "バチカン",
     "formalName": "バチカン市国",
-    "aliases": [],
+    "aliases": [
+      "ヴァチカン",
+      "ヴァチカン市国",
+      "Vatican",
+      "Vatican City",
+      "Vatican City State",
+      "Holy See",
+      "ばちかん",
+      "ばちかんしこく"
+    ],
     "flag": "🇻🇦",
     "borders": [
       "IT"
@@ -1825,7 +2796,15 @@
   "VE": {
     "name": "ベネズエラ",
     "formalName": "ベネズエラ・ボリバル共和国",
-    "aliases": [],
+    "aliases": [
+      "ヴェネズエラ",
+      "Venezuela",
+      "Bolivarian Republic of Venezuela",
+      "ベネズエラボリバル共和国",
+      "べねずえら",
+      "べねずえら・ぼりばるきょうわこく",
+      "べねずえらぼりばるきょうわこく"
+    ],
     "flag": "🇻🇪",
     "borders": [
       "CO",
@@ -1836,7 +2815,15 @@
   "VN": {
     "name": "ベトナム",
     "formalName": "ベトナム社会主義共和国",
-    "aliases": [],
+    "aliases": [
+      "ヴェトナム",
+      "越南",
+      "Vietnam",
+      "Viet Nam",
+      "Socialist Republic of Vietnam",
+      "べとなむ",
+      "べとなむしゃかいしゅぎきょうわこく"
+    ],
     "flag": "🇻🇳",
     "borders": [
       "CN",
@@ -1847,7 +2834,12 @@
   "XK": {
     "name": "コソボ",
     "formalName": "コソボ共和国",
-    "aliases": [],
+    "aliases": [
+      "Kosovo",
+      "Republic of Kosovo",
+      "こそぼ",
+      "こそぼきょうわこく"
+    ],
     "flag": "🇽🇰",
     "borders": [
       "RS",
@@ -1859,7 +2851,12 @@
   "YE": {
     "name": "イエメン",
     "formalName": "イエメン共和国",
-    "aliases": [],
+    "aliases": [
+      "Yemen",
+      "Republic of Yemen",
+      "いえめん",
+      "いえめんきょうわこく"
+    ],
     "flag": "🇾🇪",
     "borders": [
       "SA",
@@ -1869,7 +2866,15 @@
   "ZA": {
     "name": "南アフリカ",
     "formalName": "南アフリカ共和国",
-    "aliases": [],
+    "aliases": [
+      "南ア",
+      "South Africa",
+      "Republic of South Africa",
+      "RSA",
+      "みなみあふりか",
+      "みなみあふりかきょうわこく",
+      "みなみあ"
+    ],
     "flag": "🇿🇦",
     "borders": [
       "NA",
@@ -1883,7 +2888,12 @@
   "ZM": {
     "name": "ザンビア",
     "formalName": "ザンビア共和国",
-    "aliases": [],
+    "aliases": [
+      "Zambia",
+      "Republic of Zambia",
+      "ざんびあ",
+      "ざんびあきょうわこく"
+    ],
     "flag": "🇿🇲",
     "borders": [
       "CD",
@@ -1899,7 +2909,14 @@
   "ZW": {
     "name": "ジンバブエ",
     "formalName": "ジンバブエ共和国",
-    "aliases": [],
+    "aliases": [
+      "ジンバブウェ",
+      "Zimbabwe",
+      "Republic of Zimbabwe",
+      "じんばぶえ",
+      "じんばぶえきょうわこく",
+      "じんばぶうぇ"
+    ],
     "flag": "🇿🇼",
     "borders": [
       "ZM",

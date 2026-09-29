@@ -95,7 +95,31 @@
           "EH": {
             "name": "西サハラ",
             "formalName": "西サハラ",
-            "aliases": [],
+            "aliases": [
+              "スペイン領サハラ",
+              "旧スペイン領サハラ",
+              "ウエスタンサハラ",
+              "ウェスタンサハラ",
+              "サハラ・アラブ民主共和国",
+              "サハラウィ",
+              "サハラ民主共和国",
+              "Western Sahara",
+              "Sahrawi Arab Democratic Republic",
+              "SADR",
+              "Sahara Arab Democratic Republic",
+              "Spanish Sahara",
+              "Sahrawi Republic",
+              "サハラアラブ民主共和国",
+              "にしさはら",
+              "すぺいんりょうさはら",
+              "きゅうすぺいんりょうさはら",
+              "うえすたんさはら",
+              "うぇすたんさはら",
+              "さはら・あらぶみんしゅきょうわこく",
+              "さはらあらぶみんしゅきょうわこく",
+              "さはらうぃ",
+              "さはらみんしゅきょうわこく"
+            ],
             "flag": "🇪🇭",
             "borders": []
           }
@@ -135,7 +159,23 @@
           "PS": {
             "name": "パレスチナ",
             "formalName": "パレスチナ国",
-            "aliases": [],
+            "aliases": [
+              "パレスティナ",
+              "パレスティナ国",
+              "パレスチナ自治区",
+              "パレスチナ自治政府",
+              "Palestine",
+              "State of Palestine",
+              "Palestinian Territories",
+              "Palestinian Authority",
+              "Palestinian National Authority",
+              "ぱれすちな",
+              "ぱれすちなこく",
+              "ぱれすてぃな",
+              "ぱれすてぃなこく",
+              "ぱれすちなじちく",
+              "ぱれすちなじちせいふ"
+            ],
             "flag": "🇵🇸",
             "borders": []
           }
