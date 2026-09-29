@@ -143,20 +143,15 @@ export default function Home() {
 
             <p className="text-neutral-500 text-sm mb-3">{destinationLabel}</p>
 
-            <form onSubmit={handleSubmit}>
+            <form action="#" onSubmit={handleSubmit}>
               <input
                 ref={inputRef}
-                type="text"
+                type="search"
                 inputMode="text"
-                name="country-guess"
-                autoComplete="off"
                 autoCorrect="off"
                 autoCapitalize="off"
                 spellCheck={false}
                 enterKeyHint="go"
-                data-lpignore="true"
-                data-1p-ignore
-                data-form-type="other"
                 autoFocus
                 readOnly={!!popup}
                 value={inputValue}
@@ -170,7 +165,7 @@ export default function Home() {
                 }
                 aria-label={destinationLabel}
                 className={
-                  "w-full bg-transparent outline-none text-5xl font-bold tracking-tight placeholder:text-5xl placeholder:font-medium " +
+                  "w-full bg-transparent outline-none appearance-none [&::-webkit-search-cancel-button]:hidden text-5xl font-bold tracking-tight placeholder:text-5xl placeholder:font-medium " +
                   (errorText ? "text-black" : "text-emerald-600 placeholder-neutral-400")
                 }
               />
