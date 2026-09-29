@@ -5,12 +5,13 @@ function hiraganaToKatakana(str: string): string {
 }
 
 /**
- * 表記ゆれ（ひらがな/カタカナ・全角半角・空白・中黒・長音符）を吸収するための正規化。
+ * 表記ゆれ（ひらがな/カタカナ・全角半角・英字の大文字小文字・空白・中黒・長音符）を吸収するための正規化。
  */
 export function normalize(str: string): string {
   if (!str) return "";
   return hiraganaToKatakana(str)
     .normalize("NFKC")
+    .toLowerCase()
     .trim()
     .replace(/\s+/g, "")
     .replace(/[・･]/g, "")
