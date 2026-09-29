@@ -19,7 +19,8 @@ const POPUP_DURATION_MS = 1300;
 export function useGameState(
   countries: CountryMap,
   nameMap: NameMap,
-  settings: BorderSettings
+  settings: BorderSettings,
+  showPopup: boolean
 ) {
   const [history, setHistory] = useState<CountryCode[]>([]);
   const [errorText, setErrorText] = useState<string | null>(null);
@@ -95,6 +96,10 @@ export function useGameState(
 
       setErrorText(null);
       setErrorHint(null);
+      if (!showPopup) {
+        setHistory((prev) => [...prev, toCode]);
+        return true;
+      }
       setPopup({ fromCode, toCode });
       clearPopupTimeout();
       popupTimeoutRef.current = window.setTimeout(() => {
@@ -104,7 +109,7 @@ export function useGameState(
       }, POPUP_DURATION_MS);
       return true;
     },
-    [history, popup, clearPopupTimeout, countries, nameMap, settings]
+    [history, popup, clearPopupTimeout, countries, nameMap, settings, showPopup]
   );
 
   const undoLast = useCallback(() => {

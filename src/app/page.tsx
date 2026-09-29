@@ -6,12 +6,14 @@ import { buildNameMap, matchCountry } from "@/lib/matchCountry";
 import { buildGameData } from "@/lib/borderOptions";
 import { useGameState } from "@/hooks/useGameState";
 import { useBorderSettings } from "@/hooks/useBorderSettings";
+import { useShowCorrectPopup } from "@/hooks/useShowCorrectPopup";
 import { HistoryDrawer } from "@/components/HistoryDrawer";
 import { CorrectPopup } from "@/components/CorrectPopup";
 import { SettingsScreen } from "@/components/SettingsScreen";
 
 export default function Home() {
   const { settings, setSetting, resetSettings } = useBorderSettings();
+  const { showCorrectPopup, setShowCorrectPopup } = useShowCorrectPopup();
   const countries = useMemo(
     () => buildGameData(baseCountryData, settings),
     [settings]
@@ -27,7 +29,7 @@ export default function Home() {
     dismissPopup,
     undoLast,
     reset,
-  } = useGameState(countries, nameMap, settings);
+  } = useGameState(countries, nameMap, settings, showCorrectPopup);
   const [inputValue, setInputValue] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
@@ -199,6 +201,8 @@ export default function Home() {
           open={settingsOpen}
           settings={settings}
           locked={history.length > 0}
+          showCorrectPopup={showCorrectPopup}
+          onChangeShowCorrectPopup={setShowCorrectPopup}
           onChange={setSetting}
           onResetDefaults={resetSettings}
           onClose={() => setSettingsOpen(false)}

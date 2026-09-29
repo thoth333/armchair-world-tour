@@ -11,6 +11,8 @@ interface SettingsScreenProps {
   settings: BorderSettings;
   // ゲーム中は履歴と隣接データの整合が取れなくなるため変更できない
   locked: boolean;
+  showCorrectPopup: boolean;
+  onChangeShowCorrectPopup: (value: boolean) => void;
   onChange: (id: string, value: boolean) => void;
   onResetDefaults: () => void;
   onClose: () => void;
@@ -20,6 +22,8 @@ export function SettingsScreen({
   open,
   settings,
   locked,
+  showCorrectPopup,
+  onChangeShowCorrectPopup,
   onChange,
   onResetDefaults,
   onClose,
@@ -123,6 +127,45 @@ export function SettingsScreen({
           >
             初期設定に戻す
           </button>
+        </div>
+
+        <p className="text-neutral-400 text-xs tracking-widest mt-8 mb-2">
+          表示
+        </p>
+        <div className="py-4">
+          <div className="flex items-start justify-between gap-4">
+            <span
+              id="setting-label-correctPopup"
+              className="text-sm font-medium leading-snug text-black"
+            >
+              「正解！」の表示
+            </span>
+            <button
+              type="button"
+              role="switch"
+              aria-checked={showCorrectPopup}
+              aria-labelledby="setting-label-correctPopup"
+              aria-describedby="setting-desc-correctPopup"
+              onClick={() => onChangeShowCorrectPopup(!showCorrectPopup)}
+              className={
+                "relative shrink-0 w-11 h-6 rounded-full transition-colors " +
+                (showCorrectPopup ? "bg-emerald-600" : "bg-neutral-300")
+              }
+            >
+              <span
+                className={
+                  "absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform " +
+                  (showCorrectPopup ? "translate-x-5" : "translate-x-0")
+                }
+              />
+            </button>
+          </div>
+          <p
+            id="setting-desc-correctPopup"
+            className="text-neutral-400 text-xs leading-relaxed mt-1.5 pr-14"
+          >
+            隣接している国を答えたとき、「正解！」の表示を挟みます。オフにすると、すぐ次の国に進みます。
+          </p>
         </div>
       </div>
     </div>
