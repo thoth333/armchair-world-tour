@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://world-tour.thwth.dev"),
   title,
   description,
+  verification: {
+    google: "SkTei7T69utFi5AMZh26avwKayFjB32MAbCVpL-4EmQ",
+  },
   appleWebApp: {
     capable: true,
     title,
