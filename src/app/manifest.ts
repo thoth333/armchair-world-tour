@@ -8,7 +8,7 @@ export default function manifest(): MetadataRoute.Manifest {
       "何も見ずに国名をつなげていく「脳内世界旅行」を楽しもう",
     start_url: "/",
     display: "standalone",
-    background_color: "#e5e5e5",
+    background_color: "#ffffff",
     theme_color: "#059669",
     icons: [
       {

@@ -148,7 +148,15 @@ export default function Home() {
                 ref={inputRef}
                 type="text"
                 inputMode="text"
+                name="country-guess"
                 autoComplete="off"
+                autoCorrect="off"
+                autoCapitalize="off"
+                spellCheck={false}
+                enterKeyHint="go"
+                data-lpignore="true"
+                data-1p-ignore
+                data-form-type="other"
                 autoFocus
                 readOnly={!!popup}
                 value={inputValue}
