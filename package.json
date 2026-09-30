@@ -8,18 +8,25 @@
     "dev:tunnel": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
+    "build:cap": "cross-env BUILD_TARGET=capacitor next build",
+    "cap:sync": "npm run build:cap && cap sync",
+    "cap:android": "npm run cap:sync && cap open android",
     "lint": "eslint"
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
     "next": "16.3.5",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^10.1.0",
     "eslint": "^9",
     "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
